@@ -1,0 +1,35 @@
+name: heatmap
+
+on:
+  schedule:
+    - cron: "17 15 * * *"      # UTC 15:17 = JST 翌 0:17
+  workflow_dispatch: {}
+
+concurrency:
+  group: heatmap
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build heatmap
+        run: python3 build_heatmap.py
+
+      - name: Commit heatmap
+        run: |
+          git config user.name  "darts-bot"
+          git config user.email "darts-bot@users.noreply.github.com"
+          git add heatmap/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "heatmap ${{ github.run_id }} [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi

@@ -1,0 +1,3775 @@
+﻿{
+    "generated_at":  "2026-09-01T01:52:09.2465116+09:00",
+    "source":  "https://www.kaikatsu.jp/shop/data/shop.js (darts field)",
+    "count":  248,
+    "stores":  [
+                   {
+                       "store_code":  "20102",
+                       "store_name":  "厚別東店",
+                       "pref":  "北海道",
+                       "city":  "札幌市",
+                       "address":  "北海道札幌市厚別区厚別東4条7-2-1",
+                       "tel":  "011-809-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20102"
+                   },
+                   {
+                       "store_code":  "20103",
+                       "store_name":  "札幌狸小路店",
+                       "pref":  "北海道",
+                       "city":  "札幌市",
+                       "address":  "北海道札幌市中央区南2条西4-1   札幌ナナイロ6F(旧コスモビル)",
+                       "tel":  "011-200-7288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20103"
+                   },
+                   {
+                       "store_code":  "20104",
+                       "store_name":  "北42条店",
+                       "pref":  "北海道",
+                       "city":  "札幌市",
+                       "address":  "北海道札幌市東区北42条東7-1-1",
+                       "tel":  "011-733-9188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20104"
+                   },
+                   {
+                       "store_code":  "20105",
+                       "store_name":  "旭川永山店",
+                       "pref":  "北海道",
+                       "city":  "旭川市",
+                       "address":  "北海道旭川市永山7条4-4-14",
+                       "tel":  "0166-40-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20105"
+                   },
+                   {
+                       "store_code":  "20108",
+                       "store_name":  "釧路木場店",
+                       "pref":  "北海道",
+                       "city":  "釧路郡",
+                       "address":  "北海道釧路郡釧路町木場1-3-1",
+                       "tel":  "0154-39-2588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20108"
+                   },
+                   {
+                       "store_code":  "20110",
+                       "store_name":  "札幌環状通東店",
+                       "pref":  "北海道",
+                       "city":  "札幌市",
+                       "address":  "北海道札幌市東区本町2条2-3-15",
+                       "tel":  "011-789-4888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20110"
+                   },
+                   {
+                       "store_code":  "20114",
+                       "store_name":  "八戸沼館店",
+                       "pref":  "青森県",
+                       "city":  "八戸市",
+                       "address":  "青森県八戸市沼館4-1-39",
+                       "tel":  "0178-73-3988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20114"
+                   },
+                   {
+                       "store_code":  "20121",
+                       "store_name":  "盛岡上堂店",
+                       "pref":  "岩手県",
+                       "city":  "盛岡市",
+                       "address":  "岩手県盛岡市上堂1-19-67",
+                       "tel":  "019-601-1288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20121"
+                   },
+                   {
+                       "store_code":  "20124",
+                       "store_name":  "花巻店",
+                       "pref":  "岩手県",
+                       "city":  "花巻市",
+                       "address":  "岩手県花巻市下似内第17地割91",
+                       "tel":  "0198-23-1488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20124"
+                   },
+                   {
+                       "store_code":  "20126",
+                       "store_name":  "水沢店",
+                       "pref":  "岩手県",
+                       "city":  "奥州市",
+                       "address":  "岩手県奥州市水沢佐倉河五反町57",
+                       "tel":  "0197-22-8688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20126"
+                   },
+                   {
+                       "store_code":  "20127",
+                       "store_name":  "盛岡大通店",
+                       "pref":  "岩手県",
+                       "city":  "盛岡市",
+                       "address":  "岩手県盛岡市大通2-6-8 セントラルガーデンスクエア1～3F",
+                       "tel":  "019-604-6488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20127"
+                   },
+                   {
+                       "store_code":  "20131",
+                       "store_name":  "4号名取店",
+                       "pref":  "宮城県",
+                       "city":  "名取市",
+                       "address":  "宮城県名取市植松田野部49-1",
+                       "tel":  "022-381-1688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20131"
+                   },
+                   {
+                       "store_code":  "20137",
+                       "store_name":  "東仙台店",
+                       "pref":  "宮城県",
+                       "city":  "仙台市",
+                       "address":  "宮城県仙台市宮城野区小鶴3-8-10",
+                       "tel":  "022-388-1988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20137"
+                   },
+                   {
+                       "store_code":  "20138",
+                       "store_name":  "仙台一番町店",
+                       "pref":  "宮城県",
+                       "city":  "仙台市",
+                       "address":  "宮城県仙台市青葉区一番町4-5-13 ボウルサンシャインビル 2F",
+                       "tel":  "022-216-5988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20138"
+                   },
+                   {
+                       "store_code":  "20142",
+                       "store_name":  "秋田牛島店",
+                       "pref":  "秋田県",
+                       "city":  "秋田市",
+                       "address":  "秋田県秋田市牛島西1-1-18",
+                       "tel":  "018-884-0688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20142"
+                   },
+                   {
+                       "store_code":  "20146",
+                       "store_name":  "大館店",
+                       "pref":  "秋田県",
+                       "city":  "大館市",
+                       "address":  "秋田県大館市清水1-3-13",
+                       "tel":  "0186-44-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20146"
+                   },
+                   {
+                       "store_code":  "20153",
+                       "store_name":  "鶴岡店",
+                       "pref":  "山形県",
+                       "city":  "鶴岡市",
+                       "address":  "山形県鶴岡市宝田2-1-55",
+                       "tel":  "0235-29-5688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20153"
+                   },
+                   {
+                       "store_code":  "20154",
+                       "store_name":  "米沢店",
+                       "pref":  "山形県",
+                       "city":  "米沢市",
+                       "address":  "山形県米沢市金池8-1-7",
+                       "tel":  "0238-37-8168",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20154"
+                   },
+                   {
+                       "store_code":  "20156",
+                       "store_name":  "山形高堂店",
+                       "pref":  "山形県",
+                       "city":  "山形市",
+                       "address":  "山形県山形市高堂2-3-11",
+                       "tel":  "023-647-2988 ",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20156"
+                   },
+                   {
+                       "store_code":  "20162",
+                       "store_name":  "郡山桑野店",
+                       "pref":  "福島県",
+                       "city":  "郡山市",
+                       "address":  "福島県郡山市桑野4-2-2",
+                       "tel":  "024-991-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20162"
+                   },
+                   {
+                       "store_code":  "20163",
+                       "store_name":  "会津若松店",
+                       "pref":  "福島県",
+                       "city":  "会津若松市",
+                       "address":  "福島県会津若松市天神町21-11",
+                       "tel":  "0242-38-4088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20163"
+                   },
+                   {
+                       "store_code":  "20164",
+                       "store_name":  "福島南バイパス店",
+                       "pref":  "福島県",
+                       "city":  "福島市",
+                       "address":  "福島県福島市黒岩榎平56-1",
+                       "tel":  "024-544-0988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20164"
+                   },
+                   {
+                       "store_code":  "20168",
+                       "store_name":  "福島北店",
+                       "pref":  "福島県",
+                       "city":  "福島市",
+                       "address":  "福島県福島市本内北町裏6",
+                       "tel":  "024-552-6588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20168"
+                   },
+                   {
+                       "store_code":  "20169",
+                       "store_name":  "いわき平店",
+                       "pref":  "福島県",
+                       "city":  "いわき市",
+                       "address":  "福島県いわき市平谷川瀬1-18-5",
+                       "tel":  "0246-35-0688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20169"
+                   },
+                   {
+                       "store_code":  "20170",
+                       "store_name":  "いわき鹿島店",
+                       "pref":  "福島県",
+                       "city":  "いわき市",
+                       "address":  "福島県いわき市鹿島町走熊小神山66-2",
+                       "tel":  "0246-46-3788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20170"
+                   },
+                   {
+                       "store_code":  "20175",
+                       "store_name":  "函館昭和店",
+                       "pref":  "北海道",
+                       "city":  "函館市",
+                       "address":  "北海道函館市昭和3-31-12",
+                       "tel":  "0138-34-7188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20175"
+                   },
+                   {
+                       "store_code":  "20176",
+                       "store_name":  "旭川大町店",
+                       "pref":  "北海道",
+                       "city":  "旭川市",
+                       "address":  "北海道旭川市大町１条3-14-13",
+                       "tel":  "0166-50-1288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20176"
+                   },
+                   {
+                       "store_code":  "20192",
+                       "store_name":  "石巻中里店",
+                       "pref":  "宮城県",
+                       "city":  "石巻市",
+                       "address":  "宮城県石巻市南中里2-9-54",
+                       "tel":  "0225-92-1488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20192"
+                   },
+                   {
+                       "store_code":  "20203",
+                       "store_name":  "6号取手店",
+                       "pref":  "茨城県",
+                       "city":  "取手市",
+                       "address":  "茨城県取手市中原町1-18",
+                       "tel":  "0297-70-5788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20203"
+                   },
+                   {
+                       "store_code":  "20206",
+                       "store_name":  "ひたちなか店",
+                       "pref":  "茨城県",
+                       "city":  "ひたちなか市",
+                       "address":  "茨城県ひたちなか市大字市毛810-1",
+                       "tel":  "029-354-4088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20206"
+                   },
+                   {
+                       "store_code":  "20209",
+                       "store_name":  "水戸渡里店",
+                       "pref":  "茨城県",
+                       "city":  "水戸市",
+                       "address":  "茨城県水戸市渡里町2693-1",
+                       "tel":  "029-222-2788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20209"
+                   },
+                   {
+                       "store_code":  "20210",
+                       "store_name":  "筑西店",
+                       "pref":  "茨城県",
+                       "city":  "筑西市",
+                       "address":  "茨城県茨城県筑西市玉戸1053-1",
+                       "tel":  "0296-26-7088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20210"
+                   },
+                   {
+                       "store_code":  "20211",
+                       "store_name":  "50号小山店",
+                       "pref":  "栃木県",
+                       "city":  "小山市",
+                       "address":  "栃木県小山市東城南1-3-8",
+                       "tel":  "0285-31-4188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20211"
+                   },
+                   {
+                       "store_code":  "20212",
+                       "store_name":  "宇都宮御幸ヶ原店",
+                       "pref":  "栃木県",
+                       "city":  "宇都宮市",
+                       "address":  "栃木県宇都宮市下川俣町78-6",
+                       "tel":  "028-613-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20212"
+                   },
+                   {
+                       "store_code":  "20213",
+                       "store_name":  "佐野店",
+                       "pref":  "栃木県",
+                       "city":  "佐野市",
+                       "address":  "栃木県佐野市浅沼町803",
+                       "tel":  "0283-27-2988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20213"
+                   },
+                   {
+                       "store_code":  "20215",
+                       "store_name":  "50号足利店",
+                       "pref":  "栃木県",
+                       "city":  "足利市",
+                       "address":  "栃木県足利市福富町1085-1",
+                       "tel":  "0284-74-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20215"
+                   },
+                   {
+                       "store_code":  "20223",
+                       "store_name":  "50号笠懸店",
+                       "pref":  "群馬県",
+                       "city":  "みどり市",
+                       "address":  "群馬県みどり市笠懸町阿左美2823-3",
+                       "tel":  "0277-70-7688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20223"
+                   },
+                   {
+                       "store_code":  "20225",
+                       "store_name":  "407号太田店",
+                       "pref":  "群馬県",
+                       "city":  "太田市",
+                       "address":  "群馬県太田市西矢島町630",
+                       "tel":  "0276-47-9888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20225"
+                   },
+                   {
+                       "store_code":  "20227",
+                       "store_name":  "17号高崎倉賀野店",
+                       "pref":  "群馬県",
+                       "city":  "高崎市",
+                       "address":  "群馬県高崎市倉賀野町2677-1",
+                       "tel":  "027-345-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20227"
+                   },
+                   {
+                       "store_code":  "20228",
+                       "store_name":  "新前橋店",
+                       "pref":  "群馬県",
+                       "city":  "前橋市",
+                       "address":  "群馬県前橋市小相木町558-1",
+                       "tel":  "027-280-4588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20228"
+                   },
+                   {
+                       "store_code":  "20229",
+                       "store_name":  "高崎高関店",
+                       "pref":  "群馬県",
+                       "city":  "高崎市",
+                       "address":  "群馬県高崎市高関町366",
+                       "tel":  "027-310-5688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20229"
+                   },
+                   {
+                       "store_code":  "20237",
+                       "store_name":  "東川口店",
+                       "pref":  "埼玉県",
+                       "city":  "さいたま市",
+                       "address":  "埼玉県さいたま市緑区東大門3-8-6",
+                       "tel":  "048-812-2888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20237"
+                   },
+                   {
+                       "store_code":  "20238",
+                       "store_name":  "深谷上柴店",
+                       "pref":  "埼玉県",
+                       "city":  "深谷市",
+                       "address":  "埼玉県深谷市上柴町東5-22-10",
+                       "tel":  "048-551-7888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20238"
+                   },
+                   {
+                       "store_code":  "20239",
+                       "store_name":  "鶴ヶ島インター店",
+                       "pref":  "埼玉県",
+                       "city":  "鶴ヶ島市",
+                       "address":  "埼玉県鶴ヶ島市脚折町4-10-5",
+                       "tel":  "049-272-3988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20239"
+                   },
+                   {
+                       "store_code":  "20244",
+                       "store_name":  "岩槻店",
+                       "pref":  "埼玉県",
+                       "city":  "さいたま市",
+                       "address":  "埼玉県さいたま市岩槻区南平野5-6-8",
+                       "tel":  "048-792-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20244"
+                   },
+                   {
+                       "store_code":  "20245",
+                       "store_name":  "254号上福岡店",
+                       "pref":  "埼玉県",
+                       "city":  "ふじみ野市",
+                       "address":  "埼玉県ふじみ野市鶴ヶ舞3-1-8",
+                       "tel":  "049-256-4488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20245"
+                   },
+                   {
+                       "store_code":  "20249",
+                       "store_name":  "三郷店",
+                       "pref":  "埼玉県",
+                       "city":  "三郷市",
+                       "address":  "埼玉県三郷市ピアラシティ二丁目2-5",
+                       "tel":  "048-949-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20249"
+                   },
+                   {
+                       "store_code":  "20250",
+                       "store_name":  "戸田店",
+                       "pref":  "埼玉県",
+                       "city":  "戸田市",
+                       "address":  "埼玉県戸田市笹目3-8-11",
+                       "tel":  "048-449-6388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20250"
+                   },
+                   {
+                       "store_code":  "20251",
+                       "store_name":  "川口東口駅前店",
+                       "pref":  "埼玉県",
+                       "city":  "川口市",
+                       "address":  "埼玉県川口市栄町3-1-16 イート川口7F",
+                       "tel":  "048-240-1288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20251"
+                   },
+                   {
+                       "store_code":  "20252",
+                       "store_name":  "幸手店",
+                       "pref":  "埼玉県",
+                       "city":  "幸手市",
+                       "address":  "埼玉県幸手市中3-19-32",
+                       "tel":  "0480-40-1788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20252"
+                   },
+                   {
+                       "store_code":  "20256",
+                       "store_name":  "志木南口駅前店",
+                       "pref":  "埼玉県",
+                       "city":  "新座市",
+                       "address":  "埼玉県新座市東北2-30-21 3F",
+                       "tel":  "048-470-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20256"
+                   },
+                   {
+                       "store_code":  "20264",
+                       "store_name":  "佐倉志津店",
+                       "pref":  "千葉県",
+                       "city":  "佐倉市",
+                       "address":  "千葉県佐倉市井野1475",
+                       "tel":  "043-460-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20264"
+                   },
+                   {
+                       "store_code":  "20265",
+                       "store_name":  "稲毛駅東口店",
+                       "pref":  "千葉県",
+                       "city":  "千葉市",
+                       "address":  "千葉県千葉市稲毛区小仲台2-8-17",
+                       "tel":  "043-290-5888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20265"
+                   },
+                   {
+                       "store_code":  "20266",
+                       "store_name":  "16号千葉北店",
+                       "pref":  "千葉県",
+                       "city":  "千葉市",
+                       "address":  "千葉県千葉市稲毛区園生町374-1",
+                       "tel":  "043-290-0188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20266"
+                   },
+                   {
+                       "store_code":  "20267",
+                       "store_name":  "本中山店",
+                       "pref":  "千葉県",
+                       "city":  "船橋市",
+                       "address":  "千葉県船橋市本中山5-9",
+                       "tel":  "047-302-3388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20267"
+                   },
+                   {
+                       "store_code":  "20268",
+                       "store_name":  "16号野田店",
+                       "pref":  "千葉県",
+                       "city":  "野田市",
+                       "address":  "千葉県野田市鶴奉34-34",
+                       "tel":  "04-7126-5888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20268"
+                   },
+                   {
+                       "store_code":  "20275",
+                       "store_name":  "市川駅前店",
+                       "pref":  "千葉県",
+                       "city":  "市川市",
+                       "address":  "千葉県市川市市川1-4-17 アクティオーレ市川 受付4F（4F・5F）",
+                       "tel":  "047-325-6588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20275"
+                   },
+                   {
+                       "store_code":  "20278",
+                       "store_name":  "船橋競馬場駅前店",
+                       "pref":  "千葉県",
+                       "city":  "船橋市",
+                       "address":  "千葉県船橋市宮本9-4-3",
+                       "tel":  "047-495-4888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20278"
+                   },
+                   {
+                       "store_code":  "20279",
+                       "store_name":  "茂原東部台店",
+                       "pref":  "千葉県",
+                       "city":  "茂原市",
+                       "address":  "千葉県茂原市木崎2274-1",
+                       "tel":  "0475-20-2788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20279"
+                   },
+                   {
+                       "store_code":  "20280",
+                       "store_name":  "船橋夏見台店",
+                       "pref":  "千葉県",
+                       "city":  "船橋市",
+                       "address":  "千葉県船橋市夏見台3-9-25",
+                       "tel":  "047-429-5388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20280"
+                   },
+                   {
+                       "store_code":  "20281",
+                       "store_name":  "木更津店",
+                       "pref":  "千葉県",
+                       "city":  "木更津市",
+                       "address":  "千葉県木更津市請西1-17-8",
+                       "tel":  "0438-30-1088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20281"
+                   },
+                   {
+                       "store_code":  "20283",
+                       "store_name":  "16号浜野店",
+                       "pref":  "千葉県",
+                       "city":  "千葉市",
+                       "address":  "千葉県千葉市中央区村田町893-96",
+                       "tel":  "043-305-9488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20283"
+                   },
+                   {
+                       "store_code":  "20286",
+                       "store_name":  "市原店",
+                       "pref":  "千葉県",
+                       "city":  "市原市",
+                       "address":  "千葉県市原市君塚1-33-1",
+                       "tel":  "0436-25-0988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20286"
+                   },
+                   {
+                       "store_code":  "20290",
+                       "store_name":  "松戸駅西口店",
+                       "pref":  "千葉県",
+                       "city":  "松戸市",
+                       "address":  "千葉県松戸市松戸1287-1 サントロペ松戸ビル3F",
+                       "tel":  "047-362-8288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20290"
+                   },
+                   {
+                       "store_code":  "20291",
+                       "store_name":  "日立店",
+                       "pref":  "茨城県",
+                       "city":  "日立市",
+                       "address":  "茨城県日立市西成沢町3-1-1",
+                       "tel":  "0294-28-5988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20291"
+                   },
+                   {
+                       "store_code":  "20293",
+                       "store_name":  "124号鹿嶋店",
+                       "pref":  "茨城県",
+                       "city":  "鹿嶋市",
+                       "address":  "茨城県鹿嶋市鉢形971",
+                       "tel":  "0299-90-8288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20293"
+                   },
+                   {
+                       "store_code":  "20295",
+                       "store_name":  "つくば稲荷前店",
+                       "pref":  "茨城県",
+                       "city":  "つくば市",
+                       "address":  "茨城県つくば市稲荷前10-1",
+                       "tel":  "029-850-3688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20295"
+                   },
+                   {
+                       "store_code":  "20296",
+                       "store_name":  "那珂店",
+                       "pref":  "茨城県",
+                       "city":  "那珂市",
+                       "address":  "茨城県那珂市菅谷5383-4",
+                       "tel":  "029-352-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20296"
+                   },
+                   {
+                       "store_code":  "20297",
+                       "store_name":  "土浦荒川沖店",
+                       "pref":  "茨城県",
+                       "city":  "土浦市",
+                       "address":  "茨城県土浦市西根南1-1-8",
+                       "tel":  "029-843-6088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20297"
+                   },
+                   {
+                       "store_code":  "20301",
+                       "store_name":  "多摩ニュータウン店",
+                       "pref":  "東京都",
+                       "city":  "多摩市",
+                       "address":  "東京都多摩市乞田854-1",
+                       "tel":  "042-357-3888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20301"
+                   },
+                   {
+                       "store_code":  "20305",
+                       "store_name":  "八王子大和田店",
+                       "pref":  "東京都",
+                       "city":  "八王子市",
+                       "address":  "東京都八王子市大和田町2-16-11",
+                       "tel":  "042-631-9488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20305"
+                   },
+                   {
+                       "store_code":  "20307",
+                       "store_name":  "東大和店",
+                       "pref":  "東京都",
+                       "city":  "東大和市",
+                       "address":  "東京都東大和市立野1-2-1",
+                       "tel":  "042-590-4688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20307"
+                   },
+                   {
+                       "store_code":  "20308",
+                       "store_name":  "練馬笹目通り店",
+                       "pref":  "東京都",
+                       "city":  "練馬区",
+                       "address":  "東京都練馬区南田中5-3-17",
+                       "tel":  "03-5923-0588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20308"
+                   },
+                   {
+                       "store_code":  "20310",
+                       "store_name":  "羽村市役所通り店",
+                       "pref":  "東京都",
+                       "city":  "羽村市",
+                       "address":  "東京都羽村市栄町2-14-5",
+                       "tel":  "042-578-5488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20310"
+                   },
+                   {
+                       "store_code":  "20313",
+                       "store_name":  "東村山店",
+                       "pref":  "東京都",
+                       "city":  "東村山市",
+                       "address":  "東京都東村山市本町2-12-7",
+                       "tel":  "042-399-1088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20313"
+                   },
+                   {
+                       "store_code":  "20315",
+                       "store_name":  "秋葉原駅前店",
+                       "pref":  "東京都",
+                       "city":  "千代田区",
+                       "address":  "東京都千代田区外神田1-13-3 AOKIの上 3F～6F（受付4F）",
+                       "tel":  "03-5289-3288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20315"
+                   },
+                   {
+                       "store_code":  "20317",
+                       "store_name":  "八王子本店",
+                       "pref":  "東京都",
+                       "city":  "八王子市",
+                       "address":  "東京都八王子市中町5-1 八王子中町ビル 2F",
+                       "tel":  "042-620-4288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20317"
+                   },
+                   {
+                       "store_code":  "20320",
+                       "store_name":  "大森駅前店",
+                       "pref":  "東京都",
+                       "city":  "大田区",
+                       "address":  "東京都大田区山王2-4-1 大森駅前ビル5F",
+                       "tel":  "03-5718-1488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20320"
+                   },
+                   {
+                       "store_code":  "20328",
+                       "store_name":  "王子駅前店",
+                       "pref":  "東京都",
+                       "city":  "北区",
+                       "address":  "東京都北区王子1-13-16 エイムビル6・7F(受付7F)",
+                       "tel":  "03-5902-3788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20328"
+                   },
+                   {
+                       "store_code":  "20330",
+                       "store_name":  "北千住駅西口店",
+                       "pref":  "東京都",
+                       "city":  "足立区",
+                       "address":  "東京都足立区千住2-54 北千住ハリウッドビル 受付5F（4・5F）",
+                       "tel":  "03-5244-7188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20330"
+                   },
+                   {
+                       "store_code":  "20331",
+                       "store_name":  "藤沢弥勒寺店",
+                       "pref":  "神奈川県",
+                       "city":  "藤沢市",
+                       "address":  "神奈川県藤沢市小塚586-7",
+                       "tel":  "0466-29-5488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20331"
+                   },
+                   {
+                       "store_code":  "20332",
+                       "store_name":  "横浜北山田店",
+                       "pref":  "神奈川県",
+                       "city":  "横浜市",
+                       "address":  "神奈川県横浜市都筑区北山田3-1-50 快活スクエアビル 1F・2F(受付1F)",
+                       "tel":  "045-593-6348",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20332"
+                   },
+                   {
+                       "store_code":  "20333",
+                       "store_name":  "16号相模原大野台店",
+                       "pref":  "神奈川県",
+                       "city":  "相模原市",
+                       "address":  "神奈川県相模原市南区大野台1-1",
+                       "tel":  "042-704-2688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20333"
+                   },
+                   {
+                       "store_code":  "20337",
+                       "store_name":  "厚木林店",
+                       "pref":  "神奈川県",
+                       "city":  "厚木市",
+                       "address":  "神奈川県厚木市林5-23-5",
+                       "tel":  "046-294-2888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20337"
+                   },
+                   {
+                       "store_code":  "20338",
+                       "store_name":  "Luz湘南辻堂店",
+                       "pref":  "神奈川県",
+                       "city":  "藤沢市",
+                       "address":  "神奈川県藤沢市辻堂神台1-2-12 Luz湘南辻堂4F",
+                       "tel":  "0466-30-5188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20338"
+                   },
+                   {
+                       "store_code":  "20339",
+                       "store_name":  "相模原中央店",
+                       "pref":  "神奈川県",
+                       "city":  "相模原市",
+                       "address":  "神奈川県相模原市中央区清新7-1-4 2F",
+                       "tel":  "042-704-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20339"
+                   },
+                   {
+                       "store_code":  "20343",
+                       "store_name":  "相模大野駅前店",
+                       "pref":  "神奈川県",
+                       "city":  "相模原市",
+                       "address":  "神奈川県相模原市南区相模大野3-12-10",
+                       "tel":  "042-701-9388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20343"
+                   },
+                   {
+                       "store_code":  "20345",
+                       "store_name":  "海老名駅前店",
+                       "pref":  "神奈川県",
+                       "city":  "海老名市",
+                       "address":  "神奈川県海老名市中央1-4-31 海老名プラザビル 2F",
+                       "tel":  "046-236-0688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20345"
+                   },
+                   {
+                       "store_code":  "20348",
+                       "store_name":  "横浜芹が谷店",
+                       "pref":  "神奈川県",
+                       "city":  "横浜市",
+                       "address":  "神奈川県横浜市港南区芹が谷3-34-20",
+                       "tel":  "045-820-2288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20348"
+                   },
+                   {
+                       "store_code":  "20352",
+                       "store_name":  "古淵駅前店",
+                       "pref":  "神奈川県",
+                       "city":  "相模原市",
+                       "address":  "神奈川県相模原市南区古淵2-15-1",
+                       "tel":  "042-768-8688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20352"
+                   },
+                   {
+                       "store_code":  "20353",
+                       "store_name":  "伊勢原店",
+                       "pref":  "神奈川県",
+                       "city":  "伊勢原市",
+                       "address":  "神奈川県伊勢原市板戸569-1",
+                       "tel":  "0463-97-2188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20353"
+                   },
+                   {
+                       "store_code":  "20354",
+                       "store_name":  "座間店",
+                       "pref":  "神奈川県",
+                       "city":  "座間市",
+                       "address":  "神奈川県座間市相模が丘2-1-29",
+                       "tel":  "046-254-1088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20354"
+                   },
+                   {
+                       "store_code":  "20356",
+                       "store_name":  "平塚宮松店",
+                       "pref":  "神奈川県",
+                       "city":  "平塚市",
+                       "address":  "神奈川県平塚市宮松町11-4",
+                       "tel":  "0463-23-8188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20356"
+                   },
+                   {
+                       "store_code":  "20358",
+                       "store_name":  "本厚木駅前店",
+                       "pref":  "神奈川県",
+                       "city":  "厚木市",
+                       "address":  "神奈川県厚木市中町3-4-22 第二会田ビル 4F",
+                       "tel":  "046-297-3988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20358"
+                   },
+                   {
+                       "store_code":  "20359",
+                       "store_name":  "小田原鴨宮店",
+                       "pref":  "神奈川県",
+                       "city":  "小田原市",
+                       "address":  "神奈川県小田原市鴨宮816-1",
+                       "tel":  "0465-47-8258",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20359"
+                   },
+                   {
+                       "store_code":  "20363",
+                       "store_name":  "新発田店",
+                       "pref":  "新潟県",
+                       "city":  "新発田市",
+                       "address":  "新潟県新発田市新栄町3-4-40",
+                       "tel":  "0254-27-0588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20363"
+                   },
+                   {
+                       "store_code":  "20367",
+                       "store_name":  "新潟亀田店",
+                       "pref":  "新潟県",
+                       "city":  "新潟市",
+                       "address":  "新潟県新潟市江南区亀田四ツ興野2-1-36",
+                       "tel":  "025-383-0288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20367"
+                   },
+                   {
+                       "store_code":  "20369",
+                       "store_name":  "新潟寺尾店",
+                       "pref":  "新潟県",
+                       "city":  "新潟市",
+                       "address":  "新潟県新潟市西区寺尾西1-1-5",
+                       "tel":  "025-264-7188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20369"
+                   },
+                   {
+                       "store_code":  "20370",
+                       "store_name":  "新津程島店",
+                       "pref":  "新潟県",
+                       "city":  "新潟市",
+                       "address":  "新潟県新潟市秋葉区程島1876",
+                       "tel":  "0250-21-3488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20370"
+                   },
+                   {
+                       "store_code":  "20373",
+                       "store_name":  "石和店",
+                       "pref":  "山梨県",
+                       "city":  "笛吹市",
+                       "address":  "山梨県笛吹市石和町四日市場1596",
+                       "tel":  "055-261-8388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20373"
+                   },
+                   {
+                       "store_code":  "20384",
+                       "store_name":  "松本南店",
+                       "pref":  "長野県",
+                       "city":  "松本市",
+                       "address":  "長野県松本市平田東2-17-6",
+                       "tel":  "0263-85-3088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20384"
+                   },
+                   {
+                       "store_code":  "20386",
+                       "store_name":  "上田産業道路店",
+                       "pref":  "長野県",
+                       "city":  "上田市",
+                       "address":  "長野県上田市材木町2-10-1 AOKI2F",
+                       "tel":  "0268-28-0188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20386"
+                   },
+                   {
+                       "store_code":  "20390",
+                       "store_name":  "長野南バイパス店",
+                       "pref":  "長野県",
+                       "city":  "長野市",
+                       "address":  "長野県長野市稲里町中央４丁目９−１０",
+                       "tel":  "026-286-6288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20390"
+                   },
+                   {
+                       "store_code":  "20391",
+                       "store_name":  "百合ヶ丘店",
+                       "pref":  "神奈川県",
+                       "city":  "川崎市",
+                       "address":  "神奈川県川崎市麻生区高石3-32-6",
+                       "tel":  "044-969-1088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20391"
+                   },
+                   {
+                       "store_code":  "20392",
+                       "store_name":  "橋本店",
+                       "pref":  "神奈川県",
+                       "city":  "相模原市",
+                       "address":  "神奈川県相模原市緑区橋本8-2-1 ラ・フロール別館内",
+                       "tel":  "042-700-5028",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20392"
+                   },
+                   {
+                       "store_code":  "20402",
+                       "store_name":  "富山荒川店",
+                       "pref":  "富山県",
+                       "city":  "富山市",
+                       "address":  "富山県富山市荒川2-15-32",
+                       "tel":  "076-405-5688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20402"
+                   },
+                   {
+                       "store_code":  "20404",
+                       "store_name":  "魚津店",
+                       "pref":  "富山県",
+                       "city":  "魚津市",
+                       "address":  "富山県魚津市吉島2-5-23",
+                       "tel":  "0765-24-0788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20404"
+                   },
+                   {
+                       "store_code":  "20405",
+                       "store_name":  "高岡店",
+                       "pref":  "富山県",
+                       "city":  "高岡市",
+                       "address":  "富山県高岡市向野町6-18-1",
+                       "tel":  "0766-26-6388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20405"
+                   },
+                   {
+                       "store_code":  "20411",
+                       "store_name":  "8号松任店",
+                       "pref":  "石川県",
+                       "city":  "白山市",
+                       "address":  "石川県白山市田中町290-1",
+                       "tel":  "076-275-9888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20411"
+                   },
+                   {
+                       "store_code":  "20412",
+                       "store_name":  "金沢福久店",
+                       "pref":  "石川県",
+                       "city":  "金沢市",
+                       "address":  "石川県金沢市福久東1-23-1",
+                       "tel":  "076-257-4888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20412"
+                   },
+                   {
+                       "store_code":  "20421",
+                       "store_name":  "福井米松店",
+                       "pref":  "福井県",
+                       "city":  "福井市",
+                       "address":  "福井県福井市米松2-23-33",
+                       "tel":  "0776-53-9488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20421"
+                   },
+                   {
+                       "store_code":  "20422",
+                       "store_name":  "鯖江店",
+                       "pref":  "福井県",
+                       "city":  "鯖江市",
+                       "address":  "福井県鯖江市五郎丸町312",
+                       "tel":  "0778-54-0388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20422"
+                   },
+                   {
+                       "store_code":  "20432",
+                       "store_name":  "岐阜穂積店",
+                       "pref":  "岐阜県",
+                       "city":  "岐阜市",
+                       "address":  "岐阜県岐阜市西河渡3-68-2",
+                       "tel":  "058-255-5688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20432"
+                   },
+                   {
+                       "store_code":  "20435",
+                       "store_name":  "大垣店",
+                       "pref":  "岐阜県",
+                       "city":  "大垣市",
+                       "address":  "岐阜県大垣市築捨町4-67-1",
+                       "tel":  "0584-89-7388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20435"
+                   },
+                   {
+                       "store_code":  "20436",
+                       "store_name":  "可児店",
+                       "pref":  "岐阜県",
+                       "city":  "可児市",
+                       "address":  "岐阜県可児市広見1909-2",
+                       "tel":  "0574-60-5068",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20436"
+                   },
+                   {
+                       "store_code":  "20438",
+                       "store_name":  "岐阜羽島店",
+                       "pref":  "岐阜県",
+                       "city":  "羽島市",
+                       "address":  "岐阜県羽島市舟橋町138-1",
+                       "tel":  "058-394-6388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20438"
+                   },
+                   {
+                       "store_code":  "20442",
+                       "store_name":  "富士吉原店",
+                       "pref":  "静岡県",
+                       "city":  "富士市",
+                       "address":  "静岡県富士市依田原325-1",
+                       "tel":  "0545-55-0888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20442"
+                   },
+                   {
+                       "store_code":  "20452",
+                       "store_name":  "153号天白植田店",
+                       "pref":  "愛知県",
+                       "city":  "名古屋市",
+                       "address":  "愛知県名古屋市天白区焼山2-2107",
+                       "tel":  "052-809-3088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20452"
+                   },
+                   {
+                       "store_code":  "20455",
+                       "store_name":  "春日井インター店",
+                       "pref":  "愛知県",
+                       "city":  "春日井市",
+                       "address":  "愛知県春日井市東野新町1-1-10",
+                       "tel":  "0568-85-4388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20455"
+                   },
+                   {
+                       "store_code":  "20456",
+                       "store_name":  "四軒家店",
+                       "pref":  "愛知県",
+                       "city":  "名古屋市",
+                       "address":  "愛知県名古屋市守山区白山3-503",
+                       "tel":  "052-760-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20456"
+                   },
+                   {
+                       "store_code":  "20457",
+                       "store_name":  "長久手グリーンロード店",
+                       "pref":  "愛知県",
+                       "city":  "長久手市",
+                       "address":  "愛知県長久手市喜婦嶽123",
+                       "tel":  "0561-64-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20457"
+                   },
+                   {
+                       "store_code":  "20469",
+                       "store_name":  "岡崎大樹寺店",
+                       "pref":  "愛知県",
+                       "city":  "岡崎市",
+                       "address":  "愛知県岡崎市大樹寺3-12-5",
+                       "tel":  "0564-65-8588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20469"
+                   },
+                   {
+                       "store_code":  "20470",
+                       "store_name":  "知立店",
+                       "pref":  "愛知県",
+                       "city":  "知立市",
+                       "address":  "愛知県知立市上重原6-35",
+                       "tel":  "0566-84-5888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20470"
+                   },
+                   {
+                       "store_code":  "20478",
+                       "store_name":  "三重川越店",
+                       "pref":  "三重県",
+                       "city":  "三重郡",
+                       "address":  "三重県三重郡川越町高松6",
+                       "tel":  "059-361-2188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20478"
+                   },
+                   {
+                       "store_code":  "20479",
+                       "store_name":  "四日市追分店",
+                       "pref":  "三重県",
+                       "city":  "四日市市",
+                       "address":  "三重県四日市市小古曽東1-1-2",
+                       "tel":  "059-349-5448",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20479"
+                   },
+                   {
+                       "store_code":  "20482",
+                       "store_name":  "西尾店",
+                       "pref":  "愛知県",
+                       "city":  "西尾市",
+                       "address":  "愛知県西尾市山下町八幡山67",
+                       "tel":  "0563-53-5888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20482"
+                   },
+                   {
+                       "store_code":  "20483",
+                       "store_name":  "豊橋新栄店",
+                       "pref":  "愛知県",
+                       "city":  "豊橋市",
+                       "address":  "愛知県豊橋市新栄町鳥畷4-1",
+                       "tel":  "0532-34-4688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20483"
+                   },
+                   {
+                       "store_code":  "20484",
+                       "store_name":  "名古屋競馬場前店",
+                       "pref":  "愛知県",
+                       "city":  "名古屋市",
+                       "address":  "愛知県名古屋市港区小割通3-8",
+                       "tel":  "052-659-2388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20484"
+                   },
+                   {
+                       "store_code":  "20487",
+                       "store_name":  "名古屋楠インター店",
+                       "pref":  "愛知県",
+                       "city":  "名古屋市",
+                       "address":  "愛知県名古屋市北区玄馬町234-1",
+                       "tel":  "052-909-4388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20487"
+                   },
+                   {
+                       "store_code":  "20489",
+                       "store_name":  "蒲郡店",
+                       "pref":  "愛知県",
+                       "city":  "蒲郡市",
+                       "address":  "愛知県蒲郡市竹谷町梅薮24-1",
+                       "tel":  "0533-66-3688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20489"
+                   },
+                   {
+                       "store_code":  "20490",
+                       "store_name":  "千音寺店",
+                       "pref":  "愛知県",
+                       "city":  "名古屋市",
+                       "address":  "愛知県名古屋市中川区新家3-1407",
+                       "tel":  "052-439-1488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20490"
+                   },
+                   {
+                       "store_code":  "20492",
+                       "store_name":  "清水春日店",
+                       "pref":  "静岡県",
+                       "city":  "静岡市",
+                       "address":  "静岡県静岡市清水区春日1-5-11",
+                       "tel":  "054-355-0688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20492"
+                   },
+                   {
+                       "store_code":  "20493",
+                       "store_name":  "静岡寿町店",
+                       "pref":  "静岡県",
+                       "city":  "静岡市",
+                       "address":  "静岡県静岡市駿河区寿町13-13",
+                       "tel":  "054-654-0188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20493"
+                   },
+                   {
+                       "store_code":  "20494",
+                       "store_name":  "沼津店",
+                       "pref":  "静岡県",
+                       "city":  "沼津市",
+                       "address":  "静岡県沼津市共栄町19-5",
+                       "tel":  "055-927-3988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20494"
+                   },
+                   {
+                       "store_code":  "20495",
+                       "store_name":  "掛川店",
+                       "pref":  "静岡県",
+                       "city":  "掛川市",
+                       "address":  "静岡県掛川市大池624-3",
+                       "tel":  "0537-62-1888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20495"
+                   },
+                   {
+                       "store_code":  "20499",
+                       "store_name":  "藤枝店",
+                       "pref":  "静岡県",
+                       "city":  "藤枝市",
+                       "address":  "静岡県藤枝市青木3-6-17",
+                       "tel":  "054-647-0888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20499"
+                   },
+                   {
+                       "store_code":  "20501",
+                       "store_name":  "大津膳所店",
+                       "pref":  "滋賀県",
+                       "city":  "大津市",
+                       "address":  "滋賀県大津市馬場 1-7-9",
+                       "tel":  "077-511-4288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20501"
+                   },
+                   {
+                       "store_code":  "20503",
+                       "store_name":  "彦根店",
+                       "pref":  "滋賀県",
+                       "city":  "彦根市",
+                       "address":  "滋賀県彦根市高宮町1600-1",
+                       "tel":  "0749-21-4588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20503"
+                   },
+                   {
+                       "store_code":  "20504",
+                       "store_name":  "栗東店",
+                       "pref":  "滋賀県",
+                       "city":  "栗東市",
+                       "address":  "滋賀県栗東市出庭536",
+                       "tel":  "077-554-9288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20504"
+                   },
+                   {
+                       "store_code":  "20508",
+                       "store_name":  "甲賀水口店",
+                       "pref":  "滋賀県",
+                       "city":  "甲賀市",
+                       "address":  "滋賀県甲賀市水口町北脇1772-4",
+                       "tel":  "0748-65-1388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20508"
+                   },
+                   {
+                       "store_code":  "20514",
+                       "store_name":  "新堀川店",
+                       "pref":  "京都府",
+                       "city":  "京都市",
+                       "address":  "京都府京都市伏見区南寝小屋町21",
+                       "tel":  "075-611-4688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20514"
+                   },
+                   {
+                       "store_code":  "20517",
+                       "store_name":  "宇治大久保店",
+                       "pref":  "京都府",
+                       "city":  "宇治市",
+                       "address":  "京都府宇治市大久保町平盛65-1",
+                       "tel":  "0774-41-3288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20517"
+                   },
+                   {
+                       "store_code":  "20518",
+                       "store_name":  "山科駅前店",
+                       "pref":  "京都府",
+                       "city":  "京都市",
+                       "address":  "京都府京都市山科区安朱南屋敷町30-7 木下物産ビル 3F",
+                       "tel":  "075-584-1588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20518"
+                   },
+                   {
+                       "store_code":  "20519",
+                       "store_name":  "京都桂店",
+                       "pref":  "京都府",
+                       "city":  "京都市",
+                       "address":  "京都府京都市西京区上桂前田町49-1",
+                       "tel":  "075-382-3688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20519"
+                   },
+                   {
+                       "store_code":  "20521",
+                       "store_name":  "宇治槇島店",
+                       "pref":  "京都府",
+                       "city":  "宇治市",
+                       "address":  "京都府宇治市槇島町十八44-8",
+                       "tel":  "0774-25-6288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20521"
+                   },
+                   {
+                       "store_code":  "20533",
+                       "store_name":  "163号門真店",
+                       "pref":  "大阪府",
+                       "city":  "門真市",
+                       "address":  "大阪府門真市打越町31-6",
+                       "tel":  "072-800-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20533"
+                   },
+                   {
+                       "store_code":  "20534",
+                       "store_name":  "1号枚方店",
+                       "pref":  "大阪府",
+                       "city":  "枚方市",
+                       "address":  "大阪府枚方市松丘町19−1",
+                       "tel":  "072-805-5388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20534"
+                   },
+                   {
+                       "store_code":  "20535",
+                       "store_name":  "堺百舌鳥店",
+                       "pref":  "大阪府",
+                       "city":  "堺市",
+                       "address":  "大阪府堺市北区百舌鳥西之町3-530",
+                       "tel":  "072-254-8588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20535"
+                   },
+                   {
+                       "store_code":  "20536",
+                       "store_name":  "外環中石切店",
+                       "pref":  "大阪府",
+                       "city":  "東大阪市",
+                       "address":  "大阪府東大阪市中石切町6-4-39",
+                       "tel":  "072-980-8488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20536"
+                   },
+                   {
+                       "store_code":  "20537",
+                       "store_name":  "26号泉佐野店",
+                       "pref":  "大阪府",
+                       "city":  "泉佐野市",
+                       "address":  "大阪府泉佐野市高松東2-6437",
+                       "tel":  "072-458-6588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20537"
+                   },
+                   {
+                       "store_code":  "20542",
+                       "store_name":  "南津守店",
+                       "pref":  "大阪府",
+                       "city":  "大阪市",
+                       "address":  "大阪府大阪市西成区南津守6-1-70",
+                       "tel":  "06-6653-4888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20542"
+                   },
+                   {
+                       "store_code":  "20543",
+                       "store_name":  "千里本店",
+                       "pref":  "大阪府",
+                       "city":  "吹田市",
+                       "address":  "大阪府吹田市千里山竹園1-5-1 AOKI大阪千里総本店 3F",
+                       "tel":  "06-6190-1388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20543"
+                   },
+                   {
+                       "store_code":  "20550",
+                       "store_name":  "外環八尾店",
+                       "pref":  "大阪府",
+                       "city":  "八尾市",
+                       "address":  "大阪府八尾市弓削町南3-33",
+                       "tel":  "072-920-5888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20550"
+                   },
+                   {
+                       "store_code":  "20553",
+                       "store_name":  "姫路北条店",
+                       "pref":  "兵庫県",
+                       "city":  "姫路市",
+                       "address":  "兵庫県姫路市北条宮の町403",
+                       "tel":  "079-226-1088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20553"
+                   },
+                   {
+                       "store_code":  "20558",
+                       "store_name":  "鈴蘭台店",
+                       "pref":  "兵庫県",
+                       "city":  "神戸市",
+                       "address":  "兵庫県神戸市北区山田町小部法殿ノ下25-2",
+                       "tel":  "078-595-4688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20558"
+                   },
+                   {
+                       "store_code":  "20560",
+                       "store_name":  "姫路飾磨店",
+                       "pref":  "兵庫県",
+                       "city":  "姫路市",
+                       "address":  "兵庫県姫路市飾磨区構2-51",
+                       "tel":  "079-235-4488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20560"
+                   },
+                   {
+                       "store_code":  "20561",
+                       "store_name":  "伊丹昆陽店",
+                       "pref":  "兵庫県",
+                       "city":  "伊丹市",
+                       "address":  "兵庫県伊丹市山田4-8-38",
+                       "tel":  "072-782-9088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20561"
+                   },
+                   {
+                       "store_code":  "20562",
+                       "store_name":  "三宮駅前店",
+                       "pref":  "兵庫県",
+                       "city":  "神戸市",
+                       "address":  "兵庫県神戸市中央区旭通5-3-2 タツミビルディング6～8F（受付6F）",
+                       "tel":  "078-242-8288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20562"
+                   },
+                   {
+                       "store_code":  "20566",
+                       "store_name":  "国道2号西宮店",
+                       "pref":  "兵庫県",
+                       "city":  "西宮市",
+                       "address":  "兵庫県西宮市六湛寺町1-13 ドン・キホテーテ西宮店 3F",
+                       "tel":  "0798-38-9188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20566"
+                   },
+                   {
+                       "store_code":  "20568",
+                       "store_name":  "グランド六甲店",
+                       "pref":  "兵庫県",
+                       "city":  "神戸市",
+                       "address":  "兵庫県神戸市灘区友田町5-2-1 グランド六甲ビル 2F",
+                       "tel":  "078-845-8988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20568"
+                   },
+                   {
+                       "store_code":  "20572",
+                       "store_name":  "大和高田店",
+                       "pref":  "奈良県",
+                       "city":  "葛城市",
+                       "address":  "奈良県葛城市東室143-1",
+                       "tel":  "0745-69-1788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20572"
+                   },
+                   {
+                       "store_code":  "20573",
+                       "store_name":  "大和郡山店",
+                       "pref":  "奈良県",
+                       "city":  "大和郡山市",
+                       "address":  "奈良県大和郡山市筒井町531-6",
+                       "tel":  "0743-59-6788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20573"
+                   },
+                   {
+                       "store_code":  "20574",
+                       "store_name":  "24号奈良店",
+                       "pref":  "奈良県",
+                       "city":  "奈良市",
+                       "address":  "奈良県奈良市大安寺町553-3",
+                       "tel":  "0742-32-1588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20574"
+                   },
+                   {
+                       "store_code":  "20582",
+                       "store_name":  "和歌山岩出店",
+                       "pref":  "和歌山県",
+                       "city":  "岩出市",
+                       "address":  "和歌山県岩出市備前50",
+                       "tel":  "0736-69-5888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20582"
+                   },
+                   {
+                       "store_code":  "20583",
+                       "store_name":  "紀ノ川大橋店",
+                       "pref":  "和歌山県",
+                       "city":  "和歌山市",
+                       "address":  "和歌山県和歌山市湊1771-5",
+                       "tel":  "073-453-4088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20583"
+                   },
+                   {
+                       "store_code":  "20591",
+                       "store_name":  "26号和泉店",
+                       "pref":  "大阪府",
+                       "city":  "和泉市",
+                       "address":  "大阪府和泉市富秋町2-10-4",
+                       "tel":  "0725-47-1888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20591"
+                   },
+                   {
+                       "store_code":  "20593",
+                       "store_name":  "浜寺石津店",
+                       "pref":  "大阪府",
+                       "city":  "堺市",
+                       "address":  "大阪府堺市西区浜寺石津町西2-1-22",
+                       "tel":  "072-241-9988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20593"
+                   },
+                   {
+                       "store_code":  "20594",
+                       "store_name":  "布施駅前店",
+                       "pref":  "大阪府",
+                       "city":  "東大阪市",
+                       "address":  "大阪府東大阪市長堂1-2-17 東振ビル1・B1F（受付1F）",
+                       "tel":  "06-6618-6588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20594"
+                   },
+                   {
+                       "store_code":  "20595",
+                       "store_name":  "枚方市駅北口店",
+                       "pref":  "大阪府",
+                       "city":  "枚方市",
+                       "address":  "大阪府枚方市岡本町2-22-2 枚方デパートメントビル 2・3F（受付3F）",
+                       "tel":  "072-846-6488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20595"
+                   },
+                   {
+                       "store_code":  "20596",
+                       "store_name":  "長居駅前店",
+                       "pref":  "大阪府",
+                       "city":  "大阪市",
+                       "address":  "大阪府大阪市住吉区長居東4-7-8 キリン堂さん 3F",
+                       "tel":  "06-4700-7188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20596"
+                   },
+                   {
+                       "store_code":  "20599",
+                       "store_name":  "天六店",
+                       "pref":  "大阪府",
+                       "city":  "大阪市",
+                       "address":  "大阪府大阪市北区天神橋6-7-12 EQUINIA106.7～9F (受付8F)",
+                       "tel":  "06-6354-0988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20599"
+                   },
+                   {
+                       "store_code":  "20601",
+                       "store_name":  "米子店",
+                       "pref":  "鳥取県",
+                       "city":  "米子市",
+                       "address":  "鳥取県米子市米原4-5-65",
+                       "tel":  "0859-36-5858",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20601"
+                   },
+                   {
+                       "store_code":  "20602",
+                       "store_name":  "鳥取吉成店",
+                       "pref":  "鳥取県",
+                       "city":  "鳥取市",
+                       "address":  "鳥取県鳥取市叶303-1",
+                       "tel":  "0857-37-4988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20602"
+                   },
+                   {
+                       "store_code":  "20611",
+                       "store_name":  "松江店",
+                       "pref":  "島根県",
+                       "city":  "松江市",
+                       "address":  "島根県松江市学園1-1-1",
+                       "tel":  "0852-60-1788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20611"
+                   },
+                   {
+                       "store_code":  "20612",
+                       "store_name":  "出雲店",
+                       "pref":  "島根県",
+                       "city":  "出雲市",
+                       "address":  "島根県出雲市渡橋町754-5",
+                       "tel":  "0853-24-9888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20612"
+                   },
+                   {
+                       "store_code":  "20621",
+                       "store_name":  "倉敷店",
+                       "pref":  "岡山県",
+                       "city":  "倉敷市",
+                       "address":  "岡山県倉敷市西中新田534-1",
+                       "tel":  "086-430-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20621"
+                   },
+                   {
+                       "store_code":  "20622",
+                       "store_name":  "岡山青江店",
+                       "pref":  "岡山県",
+                       "city":  "岡山市",
+                       "address":  "岡山県岡山市北区青江5-22-24",
+                       "tel":  "086-235-5088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20622"
+                   },
+                   {
+                       "store_code":  "20624",
+                       "store_name":  "岡山大安寺店",
+                       "pref":  "岡山県",
+                       "city":  "岡山市",
+                       "address":  "岡山県岡山市北区大安寺南町2-6-5",
+                       "tel":  "086-214-2188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20624"
+                   },
+                   {
+                       "store_code":  "20626",
+                       "store_name":  "倉敷水島店",
+                       "pref":  "岡山県",
+                       "city":  "倉敷市",
+                       "address":  "岡山県倉敷市東塚1-312-1",
+                       "tel":  "086-455-1288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20626"
+                   },
+                   {
+                       "store_code":  "20631",
+                       "store_name":  "福山緑町店",
+                       "pref":  "広島県",
+                       "city":  "福山市",
+                       "address":  "広島県福山市松浜町4-5-35",
+                       "tel":  "084-973-1488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20631"
+                   },
+                   {
+                       "store_code":  "20633",
+                       "store_name":  "福山東深津店",
+                       "pref":  "広島県",
+                       "city":  "福山市",
+                       "address":  "広島県福山市東深津町3-14-11",
+                       "tel":  "084-973-0688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20633"
+                   },
+                   {
+                       "store_code":  "20634",
+                       "store_name":  "広島祇園店",
+                       "pref":  "広島県",
+                       "city":  "広島市",
+                       "address":  "広島県広島市安佐南区西原9-15-20",
+                       "tel":  "082-832-4088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20634"
+                   },
+                   {
+                       "store_code":  "20636",
+                       "store_name":  "東広島西条店",
+                       "pref":  "広島県",
+                       "city":  "東広島市",
+                       "address":  "広島県東広島市西条土与丸6-1-16",
+                       "tel":  "082-493-7188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20636"
+                   },
+                   {
+                       "store_code":  "20637",
+                       "store_name":  "五日市駅前店",
+                       "pref":  "広島県",
+                       "city":  "広島市",
+                       "address":  "広島県広島市佐伯区吉見園1-27 アヴィーユビル 5F",
+                       "tel":  "082-925-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20637"
+                   },
+                   {
+                       "store_code":  "20642",
+                       "store_name":  "宇部中央店",
+                       "pref":  "山口県",
+                       "city":  "宇部市",
+                       "address":  "山口県宇部市中央町3-16-46",
+                       "tel":  "0836-29-2188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20642"
+                   },
+                   {
+                       "store_code":  "20643",
+                       "store_name":  "山口大内店",
+                       "pref":  "山口県",
+                       "city":  "山口市",
+                       "address":  "山口県山口市大内中央1-9-5",
+                       "tel":  "083-941-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20643"
+                   },
+                   {
+                       "store_code":  "20644",
+                       "store_name":  "下関長府店",
+                       "pref":  "山口県",
+                       "city":  "下関市",
+                       "address":  "山口県下関市長府才川1-42-30",
+                       "tel":  "083-249-0688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20644"
+                   },
+                   {
+                       "store_code":  "20645",
+                       "store_name":  "山口吉敷店",
+                       "pref":  "山口県",
+                       "city":  "山口市",
+                       "address":  "山口県山口市吉敷下東4-18-25",
+                       "tel":  "083-921-7088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20645"
+                   },
+                   {
+                       "store_code":  "20646",
+                       "store_name":  "下関綾羅木店",
+                       "pref":  "山口県",
+                       "city":  "下関市",
+                       "address":  "山口県下関市綾羅木新町3-2-1",
+                       "tel":  "083-250-1688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20646"
+                   },
+                   {
+                       "store_code":  "20647",
+                       "store_name":  "周南久米店",
+                       "pref":  "山口県",
+                       "city":  "周南市",
+                       "address":  "山口県周南市久米中央一丁目14番3号 (旧住所:山口県周南市大字久米2926-1)",
+                       "tel":  "0834-36-0778",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20647"
+                   },
+                   {
+                       "store_code":  "20663",
+                       "store_name":  "高松福岡町店",
+                       "pref":  "香川県",
+                       "city":  "高松市",
+                       "address":  "香川県高松市福岡町3-5-2",
+                       "tel":  "087-811-0588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20663"
+                   },
+                   {
+                       "store_code":  "20665",
+                       "store_name":  "高松中央通り店",
+                       "pref":  "香川県",
+                       "city":  "高松市",
+                       "address":  "香川県高松市東ハゼ町12-9",
+                       "tel":  "087-814-9788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20665"
+                   },
+                   {
+                       "store_code":  "20666",
+                       "store_name":  "丸亀店",
+                       "pref":  "香川県",
+                       "city":  "丸亀市",
+                       "address":  "香川県丸亀市土器町東8-11",
+                       "tel":  "0877-21-2778",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20666"
+                   },
+                   {
+                       "store_code":  "20671",
+                       "store_name":  "愛媛重信店",
+                       "pref":  "愛媛県",
+                       "city":  "松山市",
+                       "address":  "愛媛県松山市南梅本町1303-1 フジグラン重信さん横 グルメアベニュー2F",
+                       "tel":  "089-990-8988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20671"
+                   },
+                   {
+                       "store_code":  "20681",
+                       "store_name":  "高知中万々店",
+                       "pref":  "高知県",
+                       "city":  "高知市",
+                       "address":  "高知県高知市南久万190-4",
+                       "tel":  "088-802-1088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20681"
+                   },
+                   {
+                       "store_code":  "20691",
+                       "store_name":  "四日市野田店",
+                       "pref":  "三重県",
+                       "city":  "四日市市",
+                       "address":  "三重県四日市市野田1-2-33",
+                       "tel":  "059-334-8988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20691"
+                   },
+                   {
+                       "store_code":  "20693",
+                       "store_name":  "伊勢店",
+                       "pref":  "三重県",
+                       "city":  "伊勢市",
+                       "address":  "三重県伊勢市小木町686-5",
+                       "tel":  "0596-31-1388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20693"
+                   },
+                   {
+                       "store_code":  "20705",
+                       "store_name":  "金沢文庫店",
+                       "pref":  "神奈川県",
+                       "city":  "横浜市",
+                       "address":  "神奈川県横浜市金沢区釜利谷東2丁目5-5 2F",
+                       "tel":  "",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20705"
+                   },
+                   {
+                       "store_code":  "20711",
+                       "store_name":  "八尾宮町店",
+                       "pref":  "大阪府",
+                       "city":  "八尾市",
+                       "address":  "大阪府八尾市宮町3-4-66",
+                       "tel":  "072-928-6388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20711"
+                   },
+                   {
+                       "store_code":  "20773",
+                       "store_name":  "津島駅前店",
+                       "pref":  "愛知県",
+                       "city":  "津島市",
+                       "address":  "愛知県津島市今市場町3-2-3",
+                       "tel":  "0567-22-3288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20773"
+                   },
+                   {
+                       "store_code":  "20775",
+                       "store_name":  "豊橋向山店",
+                       "pref":  "愛知県",
+                       "city":  "豊橋市",
+                       "address":  "愛知県豊橋市向山町三ノ輪2-2",
+                       "tel":  "0532-69-5388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20775"
+                   },
+                   {
+                       "store_code":  "20802",
+                       "store_name":  "小倉北店",
+                       "pref":  "福岡県",
+                       "city":  "北九州市",
+                       "address":  "福岡県北九州市小倉北区中津口2-2-16 ASOBOX 2F",
+                       "tel":  "093-512-5288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20802"
+                   },
+                   {
+                       "store_code":  "20807",
+                       "store_name":  "楽市楽座久留米店",
+                       "pref":  "福岡県",
+                       "city":  "久留米市",
+                       "address":  "福岡県久留米市東合川2-2-1",
+                       "tel":  "0942-41-4488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20807"
+                   },
+                   {
+                       "store_code":  "20808",
+                       "store_name":  "飯塚店",
+                       "pref":  "福岡県",
+                       "city":  "飯塚市",
+                       "address":  "福岡県飯塚市若菜260-1",
+                       "tel":  "0948-30-1588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20808"
+                   },
+                   {
+                       "store_code":  "20811",
+                       "store_name":  "福岡行橋店",
+                       "pref":  "福岡県",
+                       "city":  "行橋市",
+                       "address":  "福岡県行橋市西宮市4-1-12",
+                       "tel":  "0930-26-1388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20811"
+                   },
+                   {
+                       "store_code":  "20812",
+                       "store_name":  "ブランチ福岡下原店",
+                       "pref":  "福岡県",
+                       "city":  "福岡市",
+                       "address":  "福岡県福岡市東区下原4-2-1 ２F",
+                       "tel":  "092-674-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20812"
+                   },
+                   {
+                       "store_code":  "20814",
+                       "store_name":  "八幡桃園店",
+                       "pref":  "福岡県",
+                       "city":  "北九州市",
+                       "address":  "福岡県北九州市八幡東区桃園2-1-20",
+                       "tel":  "093-663-7488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20814"
+                   },
+                   {
+                       "store_code":  "20816",
+                       "store_name":  "福岡大橋駅西口店",
+                       "pref":  "福岡県",
+                       "city":  "福岡市",
+                       "address":  "福岡県福岡市南区大橋1-17-5",
+                       "tel":  "092-557-1288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20816"
+                   },
+                   {
+                       "store_code":  "20817",
+                       "store_name":  "八幡穴生店",
+                       "pref":  "福岡県",
+                       "city":  "北九州市",
+                       "address":  "福岡県北九州市八幡西区穴生1-8-3",
+                       "tel":  "093-632-8188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20817"
+                   },
+                   {
+                       "store_code":  "20818",
+                       "store_name":  "福岡水城店",
+                       "pref":  "福岡県",
+                       "city":  "太宰府市",
+                       "address":  "福岡県太宰府市水城1-404-1",
+                       "tel":  "092-920-7788",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20818"
+                   },
+                   {
+                       "store_code":  "20819",
+                       "store_name":  "久留米上津バイパス店",
+                       "pref":  "福岡県",
+                       "city":  "久留米市",
+                       "address":  "福岡県久留米市本山1-10-10",
+                       "tel":  "0942-51-2088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20819"
+                   },
+                   {
+                       "store_code":  "20820",
+                       "store_name":  "小倉西港店",
+                       "pref":  "福岡県",
+                       "city":  "北九州市",
+                       "address":  "福岡県北九州市小倉北区西港町30-18",
+                       "tel":  "093-562-3588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20820"
+                   },
+                   {
+                       "store_code":  "20821",
+                       "store_name":  "佐賀本庄店",
+                       "pref":  "佐賀県",
+                       "city":  "佐賀市",
+                       "address":  "佐賀県佐賀市本庄町本庄969-1",
+                       "tel":  "0952-27-8188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20821"
+                   },
+                   {
+                       "store_code":  "20822",
+                       "store_name":  "鳥栖店",
+                       "pref":  "佐賀県",
+                       "city":  "鳥栖市",
+                       "address":  "佐賀県鳥栖市鎗田町389-1",
+                       "tel":  "0942-87-2988",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20822"
+                   },
+                   {
+                       "store_code":  "20823",
+                       "store_name":  "佐賀兵庫店",
+                       "pref":  "佐賀県",
+                       "city":  "佐賀市",
+                       "address":  "佐賀県佐賀市兵庫南4-332",
+                       "tel":  "0952-27-7288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20823"
+                   },
+                   {
+                       "store_code":  "20834",
+                       "store_name":  "佐世保大塔店",
+                       "pref":  "長崎県",
+                       "city":  "佐世保市",
+                       "address":  "長崎県佐世保市大塔町1861-12",
+                       "tel":  "0956-20-0888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20834"
+                   },
+                   {
+                       "store_code":  "20843",
+                       "store_name":  "上熊本店",
+                       "pref":  "熊本県",
+                       "city":  "熊本市",
+                       "address":  "熊本県熊本市西区上熊本2-17-42",
+                       "tel":  "096-319-0588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20843"
+                   },
+                   {
+                       "store_code":  "20844",
+                       "store_name":  "熊本東バイパス店",
+                       "pref":  "熊本県",
+                       "city":  "熊本市",
+                       "address":  "熊本県熊本市東区上南部2-1-109　2F",
+                       "tel":  "096-292-8688",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20844"
+                   },
+                   {
+                       "store_code":  "20846",
+                       "store_name":  "熊本田崎店",
+                       "pref":  "熊本県",
+                       "city":  "熊本市",
+                       "address":  "熊本県熊本市西区田崎2-2-88",
+                       "tel":  "096-319-3088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20846"
+                   },
+                   {
+                       "store_code":  "20849",
+                       "store_name":  "ワンダーシティ南熊本店",
+                       "pref":  "熊本県",
+                       "city":  "熊本市",
+                       "address":  "熊本県熊本市中央区九品寺6-9-43",
+                       "tel":  "096-375-0488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20849"
+                   },
+                   {
+                       "store_code":  "20850",
+                       "store_name":  "熊本宇土店",
+                       "pref":  "熊本県",
+                       "city":  "宇土市",
+                       "address":  "熊本県宇土市水町50-1",
+                       "tel":  "0964-24-5388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20850"
+                   },
+                   {
+                       "store_code":  "20851",
+                       "store_name":  "別府店",
+                       "pref":  "大分県",
+                       "city":  "別府市",
+                       "address":  "大分県別府市京町8-19",
+                       "tel":  "0977-73-7888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20851"
+                   },
+                   {
+                       "store_code":  "20861",
+                       "store_name":  "宮崎一の宮店",
+                       "pref":  "宮崎県",
+                       "city":  "宮崎市",
+                       "address":  "宮崎県宮崎市日ノ出町2-1",
+                       "tel":  "0985-35-6588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20861"
+                   },
+                   {
+                       "store_code":  "20862",
+                       "store_name":  "都城店",
+                       "pref":  "宮崎県",
+                       "city":  "都城市",
+                       "address":  "宮崎県都城市平江町143",
+                       "tel":  "0986-46-3488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20862"
+                   },
+                   {
+                       "store_code":  "20863",
+                       "store_name":  "宮崎加納店",
+                       "pref":  "宮崎県",
+                       "city":  "宮崎市",
+                       "address":  "宮崎県宮崎市清武町加納乙254-3",
+                       "tel":  "0985-55-6468",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20863"
+                   },
+                   {
+                       "store_code":  "20873",
+                       "store_name":  "鹿児島新栄店",
+                       "pref":  "鹿児島県",
+                       "city":  "鹿児島市",
+                       "address":  "鹿児島県鹿児島市新栄町1-28",
+                       "tel":  "099-214-3888",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20873"
+                   },
+                   {
+                       "store_code":  "20874",
+                       "store_name":  "アクロスプラザ与次郎店",
+                       "pref":  "鹿児島県",
+                       "city":  "鹿児島市",
+                       "address":  "鹿児島県鹿児島市与次郎1-7-18",
+                       "tel":  "099-214-2388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20874"
+                   },
+                   {
+                       "store_code":  "20881",
+                       "store_name":  "沖縄コザ店",
+                       "pref":  "沖縄県",
+                       "city":  "沖縄市",
+                       "address":  "沖縄県沖縄市宮里1-15-15　2・3F(受付2F)",
+                       "tel":  "098-938-4388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20881"
+                   },
+                   {
+                       "store_code":  "20884",
+                       "store_name":  "那覇安謝店",
+                       "pref":  "沖縄県",
+                       "city":  "那覇市",
+                       "address":  "沖縄県那覇市字安謝664-32 2F",
+                       "tel":  "098-951-1188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20884"
+                   },
+                   {
+                       "store_code":  "20887",
+                       "store_name":  "浦添店",
+                       "pref":  "沖縄県",
+                       "city":  "浦添市",
+                       "address":  "沖縄県浦添市前田3丁目1-5",
+                       "tel":  "098-942-5088",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20887"
+                   },
+                   {
+                       "store_code":  "20890",
+                       "store_name":  "コマーシャルモール博多店",
+                       "pref":  "福岡県",
+                       "city":  "福岡市",
+                       "address":  "福岡県福岡市博多区東光寺町2-6-40 コマーシャルモール博多1F",
+                       "tel":  "092-402-7307",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20890"
+                   },
+                   {
+                       "store_code":  "20891",
+                       "store_name":  "三原店",
+                       "pref":  "広島県",
+                       "city":  "三原市",
+                       "address":  "広島県三原市古浜1-5-11",
+                       "tel":  "0848-81-2388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20891"
+                   },
+                   {
+                       "store_code":  "20892",
+                       "store_name":  "東広島西条2号店",
+                       "pref":  "広島県",
+                       "city":  "東広島市",
+                       "address":  "広島県東広島市西条御条町1-21",
+                       "tel":  "082-431-4588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20892"
+                   },
+                   {
+                       "store_code":  "20895",
+                       "store_name":  "登戸駅前店",
+                       "pref":  "神奈川県",
+                       "city":  "川崎市",
+                       "address":  "神奈川県川崎市多摩区登戸3414 ヨシザワセントラルビル3階",
+                       "tel":  "044-328-5493",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20895"
+                   },
+                   {
+                       "store_code":  "20901",
+                       "store_name":  "新横浜店",
+                       "pref":  "神奈川県",
+                       "city":  "横浜市",
+                       "address":  "神奈川県横浜市港北区新横浜2-3-5 SR第2ビル 受付2F (2～5F)",
+                       "tel":  "045-478-0288",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20901"
+                   },
+                   {
+                       "store_code":  "20903",
+                       "store_name":  "調布南口店",
+                       "pref":  "東京都",
+                       "city":  "調布市",
+                       "address":  "東京都調布市布田4-2-4 シーエフ調布駅前ビル4F",
+                       "tel":  "042-443-6188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20903"
+                   },
+                   {
+                       "store_code":  "20923",
+                       "store_name":  "狭山入間川店",
+                       "pref":  "埼玉県",
+                       "city":  "狭山市",
+                       "address":  "埼玉県狭山市入間川4-4-6",
+                       "tel":  "04-2900-2588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20923"
+                   },
+                   {
+                       "store_code":  "20925",
+                       "store_name":  "朝霞駅東口店",
+                       "pref":  "埼玉県",
+                       "city":  "朝霞市",
+                       "address":  "埼玉県朝霞市仲町2-1-20 朝霞UNOビル 3F",
+                       "tel":  "048-451-7338",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20925"
+                   },
+                   {
+                       "store_code":  "20926",
+                       "store_name":  "ビバモール加須店",
+                       "pref":  "埼玉県",
+                       "city":  "加須市",
+                       "address":  "埼玉県加須市下高柳1-29",
+                       "tel":  "0480-67-4588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20926"
+                   },
+                   {
+                       "store_code":  "20927",
+                       "store_name":  "川口朝日店",
+                       "pref":  "埼玉県",
+                       "city":  "川口市",
+                       "address":  "埼玉県川口市朝日4-13",
+                       "tel":  "048-228-3838",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20927"
+                   },
+                   {
+                       "store_code":  "20928",
+                       "store_name":  "本庄東店",
+                       "pref":  "埼玉県",
+                       "city":  "本庄市",
+                       "address":  "埼玉県本庄市寿3-4-22",
+                       "tel":  "0495-27-8588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20928"
+                   },
+                   {
+                       "store_code":  "20930",
+                       "store_name":  "草加店",
+                       "pref":  "埼玉県",
+                       "city":  "草加市",
+                       "address":  "埼玉県草加市西町632-5",
+                       "tel":  "048-920-6588",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20930"
+                   },
+                   {
+                       "store_code":  "20940",
+                       "store_name":  "小田急町田駅前店",
+                       "pref":  "東京都",
+                       "city":  "町田市",
+                       "address":  "東京都町田市原町田6-13-21 アミックスビル町田 B1F",
+                       "tel":  "042-732-0028",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20940"
+                   },
+                   {
+                       "store_code":  "20943",
+                       "store_name":  "神戸伊川谷店",
+                       "pref":  "兵庫県",
+                       "city":  "神戸市",
+                       "address":  "兵庫県神戸市西区伊川谷町潤和696",
+                       "tel":  "078-978-1388",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20943"
+                   },
+                   {
+                       "store_code":  "20953",
+                       "store_name":  "千葉都賀店",
+                       "pref":  "千葉県",
+                       "city":  "千葉市",
+                       "address":  "千葉県千葉市若葉区都賀3-24-7",
+                       "tel":  "043-233-6038",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20953"
+                   },
+                   {
+                       "store_code":  "20954",
+                       "store_name":  "富里インター店",
+                       "pref":  "千葉県",
+                       "city":  "富里市",
+                       "address":  "千葉県富里市七栄1005-5",
+                       "tel":  "0476-91-5488",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "VSPHOENIX S4",
+                                     "VSPHOENIX X"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20954"
+                   },
+                   {
+                       "store_code":  "20981",
+                       "store_name":  "上尾日の出店",
+                       "pref":  "埼玉県",
+                       "city":  "上尾市",
+                       "address":  "埼玉県上尾市日の出3-1",
+                       "tel":  "048-778-0655",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20981"
+                   },
+                   {
+                       "store_code":  "20982",
+                       "store_name":  "蓮田店",
+                       "pref":  "埼玉県",
+                       "city":  "蓮田市",
+                       "address":  "埼玉県蓮田市関山1-5-8",
+                       "tel":  "048-765-0188",
+                       "darts":  [
+                                     "オンラインダーツ",
+                                     "DARTSLIVE3",
+                                     "DARTSLIVE2 EX"
+                                 ],
+                       "darts_units":  null,
+                       "vacancy_url":  "https://www.kaikatsu.jp/shop/detail/vacancy.html?store_code=20982"
+                   }
+               ]
+}

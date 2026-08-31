@@ -1,0 +1,16 @@
+{
+  "_readme": "travel_min は自宅からの片道所要時間(分)。要調整。notify=true の店だけプッシュ対象。darts_units は店舗ページの (台数：N台)。",
+  "poll": {
+    "notify_on": ["AVAILABLE"],
+    "cooldown_min": 30,
+    "quiet_hours": { "start": "01:00", "end": "09:00" },
+    "request_gap_sec": 1.0,
+    "hindsight_margin_per_free_min": 6
+  },
+  "stores": [
+    { "code": "20903", "name": "調布南口店",   "travel_min": 12,   "notify": true,  "darts_units": null },
+    { "code": "20895", "name": "登戸駅前店",   "travel_min": 20,   "notify": true,  "darts_units": null },
+    { "code": "20391", "name": "百合ヶ丘店",   "travel_min": 18,   "notify": true,  "darts_units": 4 },
+    { "code": "20332", "name": "横浜北山田店", "travel_min": null, "notify": false, "darts_units": 15 }
+  ]
+}

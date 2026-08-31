@@ -1,0 +1,6 @@
+{
+  "20903": { "last_state": "AVAILABLE", "last_notified_ts": 0, "capacity_est": 2, "last_seen_ts": 0 },
+  "20895": { "last_state": "FULL", "last_notified_ts": 0, "capacity_est": 0, "last_seen_ts": 0 },
+  "20391": { "last_state": "FULL", "last_notified_ts": 0, "capacity_est": 4, "last_seen_ts": 0 },
+  "20332": { "last_state": "AVAILABLE", "last_notified_ts": 0, "capacity_est": 15, "last_seen_ts": 0 }
+}

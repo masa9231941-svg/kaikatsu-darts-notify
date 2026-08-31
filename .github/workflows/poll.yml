@@ -1,0 +1,40 @@
+name: poll
+
+on:
+  schedule:
+    # 壁時計10分ごと（GitHub の都合で数分〜十数分遅延しうる。本家データも10分粒度なので許容）
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Poll & notify
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+        run: python3 poll.py
+
+      - name: Commit log
+        run: |
+          git config user.name  "darts-bot"
+          git config user.email "darts-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "log ${{ github.run_id }} [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi
