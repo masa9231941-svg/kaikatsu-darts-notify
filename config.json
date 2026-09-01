@@ -1,9 +1,10 @@
 {
-  "_readme": "travel_min は自宅からの片道所要時間(分)。要調整。notify=true の店だけプッシュ対象。darts_units は店舗ページの (台数：N台)。",
+  "_readme": "通知は既定OFF。override ワークフロー(手動ON)で data/override.json に期限が入っている間だけ通知。travel_min=自宅からの片道分(要調整)。notify=true の店だけプッシュ対象。",
   "poll": {
     "notify_on": ["AVAILABLE"],
     "cooldown_min": 30,
-    "quiet_hours": { "start": "01:00", "end": "09:00" },
+    "default_notify": false,
+    "override_hours": 3,
     "request_gap_sec": 1.0,
     "hindsight_margin_per_free_min": 6
   },

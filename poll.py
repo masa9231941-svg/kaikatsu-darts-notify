@@ -4,7 +4,10 @@
 config.json の各店について空席照会 API を1回ずつ叩き、
   - data/log/YYYY-MM.csv に1行ずつ追記
   - data/state.json を更新（差分検出・cooldown・ダーツ台数推定）
-  - 満席→空き の遷移を検出したら ntfy にプッシュ
+  - 満席→空き の遷移を検出し、かつ通知がONなら ntfy にプッシュ
+
+通知は既定 OFF。data/override.json の notify_until（JST）が未来のときだけ ON。
+ON/OFF は override ワークフロー（set_override.py）から切り替える。
 
 Python 3 標準ライブラリのみ。GitHub Actions (ubuntu-latest) 上での実行を想定。
 """
@@ -36,6 +39,7 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 LOG_DIR = ROOT / "data" / "log"
 STATE_PATH = ROOT / "data" / "state.json"
+OVERRIDE_PATH = ROOT / "data" / "override.json"   # 手動 通知ON トグルの状態
 
 CSV_FIELDS = [
     "ts_jst", "ts_slot", "store_code", "store_name",
@@ -126,22 +130,24 @@ def fetch_darts(code: str) -> tuple[str, str, str, object]:
     return classify(darts)
 
 
-def in_quiet_hours(now: datetime, quiet: dict | None) -> bool:
-    if not quiet:
-        return False
-    try:
-        sh, sm = map(int, str(quiet["start"]).split(":"))
-        eh, em = map(int, str(quiet["end"]).split(":"))
-    except (KeyError, ValueError):
-        return False
-    start = sh * 60 + sm
-    end = eh * 60 + em
-    cur = now.hour * 60 + now.minute
-    if start == end:
-        return False
-    if start < end:
-        return start <= cur < end
-    return cur >= start or cur < end          # 日をまたぐ (例 01:00-09:00 は跨がないが 23:00-06:00 用)
+def notifications_enabled(now: datetime, default_notify: bool, override: dict) -> tuple[bool, str]:
+    """今 通知を送ってよいか (bool, 理由).
+
+    既定は OFF。`data/override.json` の `notify_until`（JST ISO）が未来なら ON。
+    """
+    nu = (override or {}).get("notify_until")
+    if nu:
+        try:
+            until = datetime.fromisoformat(str(nu))
+            if until.tzinfo is None:
+                until = until.replace(tzinfo=JST)
+            if now < until:
+                return True, f"手動ON（{until.astimezone(JST).strftime('%m-%d %H:%M')}まで）"
+        except ValueError:
+            pass
+    if default_notify:
+        return True, "default_notify=true"
+    return False, "通知OFF中（手動ONで有効化）"
 
 
 def prospect_rank(free_count, data_delay_min: float, travel_min, margin_per_free: float) -> str | None:
@@ -190,7 +196,7 @@ def send_ntfy(title: str, body: str, click: str, actions: str | None) -> bool:
 
 
 def process_store(store, code, state, now, slot, data_delay_min, ts_jst, ts_slot,
-                   notify_on, cooldown_min, quiet, margin_per_free) -> None:
+                   notify_on, cooldown_min, notify_enabled, margin_per_free) -> None:
     """1店ぶん取得→CSV追記→state更新→(必要なら)ntfy送信. state は in-place で更新."""
     name = store.get("name", code)
 
@@ -224,9 +230,8 @@ def process_store(store, code, state, now, slot, data_delay_min, ts_jst, ts_slot
     is_open_edge = prev_state in NOTIFY_FROM and cur_state in notify_on
     last_notified = st.get("last_notified_ts", 0)
     cooled = (now.timestamp() - last_notified) >= cooldown_min * 60
-    quiet_now = in_quiet_hours(now, quiet)
 
-    if want_notify and is_open_edge and cooled and not quiet_now:
+    if want_notify and is_open_edge and cooled and notify_enabled:
         travel = store.get("travel_min")
         rank = prospect_rank(free, data_delay_min, travel, margin_per_free)
         title = f"空き: {name}（{seat_status or '空きあり'}）"
@@ -245,7 +250,7 @@ def process_store(store, code, state, now, slot, data_delay_min, ts_jst, ts_slot
             st["last_notified_ts"] = int(now.timestamp())
             print(f"  -> ntfy 送信: {title} | {body}")
     elif want_notify and is_open_edge:
-        reason = "cooldown中" if not cooled else "quiet_hours中" if quiet_now else "?"
+        reason = "cooldown中" if not cooled else "通知OFF中（手動ONで有効化）"
         print(f"  -> 空き遷移だが通知抑制（{reason}）")
 
     st["last_state"] = cur_state
@@ -280,12 +285,15 @@ def main() -> int:
     poll_cfg = cfg.get("poll", {})
     notify_on = set(poll_cfg.get("notify_on", [AVAILABLE]))
     cooldown_min = float(poll_cfg.get("cooldown_min", 30))
-    quiet = poll_cfg.get("quiet_hours")
+    default_notify = bool(poll_cfg.get("default_notify", False))
     gap = float(poll_cfg.get("request_gap_sec", 1.0))
     margin_per_free = float(poll_cfg.get("hindsight_margin_per_free_min", 6))
 
     state = load_json(STATE_PATH, {})
+    override = load_json(OVERRIDE_PATH, {})
     now = now_jst()
+    notify_enabled, notify_reason = notifications_enabled(now, default_notify, override)
+    print(f"通知: {'ON' if notify_enabled else 'OFF'}（{notify_reason}）")
     slot = data_slot(now)
     data_delay_min = (now - slot).total_seconds() / 60.0
     ts_jst = now.strftime("%Y-%m-%dT%H:%M:%S")
@@ -299,7 +307,7 @@ def main() -> int:
         try:
             process_store(
                 store, code, state, now, slot, data_delay_min, ts_jst, ts_slot,
-                notify_on, cooldown_min, quiet, margin_per_free,
+                notify_on, cooldown_min, notify_enabled, margin_per_free,
             )
         except Exception as exc:
             # 1店の処理でどんな例外が起きても他の店・CSV追記・state保存は続行する
