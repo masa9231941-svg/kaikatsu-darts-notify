@@ -107,8 +107,11 @@ def fetch_darts(code: str) -> tuple[str, str, str, object]:
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
             payload = json.loads(resp.read().decode("utf-8"))
-    except (urllib.error.URLError, TimeoutError, ValueError, OSError) as exc:
-        print(f"  [{code}] fetch error: {exc}", file=sys.stderr)
+    except Exception as exc:
+        # 意図的に broad except: http.client.RemoteDisconnected / IncompleteRead など
+        # OSError の派生でない一過性のネットワーク例外もあり、それで実行全体を落としたくない。
+        # 1店の失敗は ERROR 扱いにしてスキップするだけ（次の cron が10分後に来る）。
+        print(f"  [{code}] fetch error: {exc!r}", file=sys.stderr)
         return ERROR, "", "", None
 
     if str(payload.get("status")) not in ("0", "0.0"):
@@ -181,9 +184,71 @@ def send_ntfy(title: str, body: str, click: str, actions: str | None) -> bool:
         with urllib.request.urlopen(req, timeout=20) as resp:
             resp.read()
         return True
-    except (urllib.error.URLError, TimeoutError, OSError) as exc:
-        print(f"  ntfy 送信失敗: {exc}", file=sys.stderr)
+    except Exception as exc:               # 送信失敗で実行全体を落とさない（fetch_darts と同じ理由）
+        print(f"  ntfy 送信失敗: {exc!r}", file=sys.stderr)
         return False
+
+
+def process_store(store, code, state, now, slot, data_delay_min, ts_jst, ts_slot,
+                   notify_on, cooldown_min, quiet, margin_per_free) -> None:
+    """1店ぶん取得→CSV追記→state更新→(必要なら)ntfy送信. state は in-place で更新."""
+    name = store.get("name", code)
+
+    cur_state, seat_status, status_no, free = fetch_darts(code)
+    print(f"[{code}] {name}: {cur_state} {seat_status!r} free={free}")
+
+    append_csv({
+        "ts_jst": ts_jst, "ts_slot": ts_slot,
+        "store_code": code, "store_name": name,
+        "seat_status": seat_status, "status_no": status_no,
+        "state": cur_state, "free_count": "" if free is None else free,
+    })
+
+    if cur_state == ERROR:
+        return                                          # 取得失敗は state を触らない（遷移を取りこぼさない）
+
+    st = state.setdefault(code, {})
+    prev_state = st.get("last_state")
+
+    # ダーツ台数の推定: config の公式台数 / 過去の最大 free / 今回の free の最大値
+    cap_candidates = [st.get("capacity_est") or 0]
+    if store.get("darts_units"):
+        cap_candidates.append(int(store["darts_units"]))
+    if free is not None:
+        cap_candidates.append(free)
+    st["capacity_est"] = max(cap_candidates)
+    st["last_seen_ts"] = int(now.timestamp())
+
+    # --- 通知判定 ---
+    want_notify = bool(store.get("notify"))
+    is_open_edge = prev_state in NOTIFY_FROM and cur_state in notify_on
+    last_notified = st.get("last_notified_ts", 0)
+    cooled = (now.timestamp() - last_notified) >= cooldown_min * 60
+    quiet_now = in_quiet_hours(now, quiet)
+
+    if want_notify and is_open_edge and cooled and not quiet_now:
+        travel = store.get("travel_min")
+        rank = prospect_rank(free, data_delay_min, travel, margin_per_free)
+        title = f"空き: {name}（{seat_status or '空きあり'}）"
+        parts = [f"{slot.strftime('%H:%M')}時点",
+                 f"データ遅延~{round(data_delay_min)}分"]
+        if travel is not None:
+            parts.append(f"移動{travel}分 ⇒ 見込み: {rank}")
+        else:
+            parts.append("移動時間未設定")
+        body = " / ".join(parts)
+        click = VACANCY_PAGE.format(code=code)
+        maps = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(
+            f"快活CLUB {name}")
+        actions = f"view, 地図で開く, {maps}"
+        if send_ntfy(title, body, click, actions):
+            st["last_notified_ts"] = int(now.timestamp())
+            print(f"  -> ntfy 送信: {title} | {body}")
+    elif want_notify and is_open_edge:
+        reason = "cooldown中" if not cooled else "quiet_hours中" if quiet_now else "?"
+        print(f"  -> 空き遷移だが通知抑制（{reason}）")
+
+    st["last_state"] = cur_state
 
 
 # --- メイン --------------------------------------------------------
@@ -228,66 +293,18 @@ def main() -> int:
 
     stores = cfg.get("stores", [])
     for i, store in enumerate(stores):
-        code = str(store["code"])
-        name = store.get("name", code)
+        code = str(store.get("code", f"#{i}"))
         if i:
             time.sleep(gap)                            # 店間ディレイ（並列アクセスしない）
-
-        cur_state, seat_status, status_no, free = fetch_darts(code)
-        print(f"[{code}] {name}: {cur_state} {seat_status!r} free={free}")
-
-        append_csv({
-            "ts_jst": ts_jst, "ts_slot": ts_slot,
-            "store_code": code, "store_name": name,
-            "seat_status": seat_status, "status_no": status_no,
-            "state": cur_state, "free_count": "" if free is None else free,
-        })
-
-        if cur_state == ERROR:
-            continue                                   # 取得失敗は state を触らない（遷移を取りこぼさない）
-
-        st = state.setdefault(code, {})
-        prev_state = st.get("last_state")
-
-        # ダーツ台数の推定: config の公式台数 / 過去の最大 free / 今回の free の最大値
-        cap_candidates = [st.get("capacity_est") or 0]
-        if store.get("darts_units"):
-            cap_candidates.append(int(store["darts_units"]))
-        if free is not None:
-            cap_candidates.append(free)
-        st["capacity_est"] = max(cap_candidates)
-        st["last_seen_ts"] = int(now.timestamp())
-
-        # --- 通知判定 ---
-        want_notify = bool(store.get("notify"))
-        is_open_edge = prev_state in NOTIFY_FROM and cur_state in notify_on
-        last_notified = st.get("last_notified_ts", 0)
-        cooled = (now.timestamp() - last_notified) >= cooldown_min * 60
-        quiet_now = in_quiet_hours(now, quiet)
-
-        if want_notify and is_open_edge and cooled and not quiet_now:
-            travel = store.get("travel_min")
-            rank = prospect_rank(free, data_delay_min, travel, margin_per_free)
-            title = f"空き: {name}（{seat_status or '空きあり'}）"
-            parts = [f"{slot.strftime('%H:%M')}時点",
-                     f"データ遅延~{round(data_delay_min)}分"]
-            if travel is not None:
-                parts.append(f"移動{travel}分 ⇒ 見込み: {rank}")
-            else:
-                parts.append("移動時間未設定")
-            body = " / ".join(parts)
-            click = VACANCY_PAGE.format(code=code)
-            maps = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(
-                f"快活CLUB {name}")
-            actions = f"view, 地図で開く, {maps}"
-            if send_ntfy(title, body, click, actions):
-                st["last_notified_ts"] = int(now.timestamp())
-                print(f"  -> ntfy 送信: {title} | {body}")
-        elif want_notify and is_open_edge:
-            reason = "cooldown中" if not cooled else "quiet_hours中" if quiet_now else "?"
-            print(f"  -> 空き遷移だが通知抑制（{reason}）")
-
-        st["last_state"] = cur_state
+        try:
+            process_store(
+                store, code, state, now, slot, data_delay_min, ts_jst, ts_slot,
+                notify_on, cooldown_min, quiet, margin_per_free,
+            )
+        except Exception as exc:
+            # 1店の処理でどんな例外が起きても他の店・CSV追記・state保存は続行する
+            # （broad except は意図的: cron が10分後にまた来るので今回はスキップで十分）。
+            print(f"[{code}] unexpected error, skipping this store: {exc!r}", file=sys.stderr)
 
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True),
