@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import traceback
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -39,7 +40,7 @@ def send_ntfy(text: str) -> None:
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     if not topic:
         return
-    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    server = (os.environ.get("NTFY_SERVER") or "https://ntfy.sh").rstrip("/")
     url = topic if topic.startswith("http") else f"{server}/{topic}"
     headers = {
         "Title": "ダーツ通知トグル".encode("utf-8"),
@@ -67,7 +68,11 @@ def write_off(reason: str) -> int:
 
 
 def main() -> int:
-    action = (os.environ.get("INPUT_ACTION") or "on").strip().lower()
+    raw_action = os.environ.get("INPUT_ACTION")
+    raw_hours = os.environ.get("INPUT_HOURS")
+    print(f"INPUT_ACTION={raw_action!r} INPUT_HOURS={raw_hours!r} "
+          f"NTFY_TOPIC={'set' if os.environ.get('NTFY_TOPIC') else 'unset'}")
+    action = (raw_action or "on").strip().lower()
     now = datetime.now(JST)
     OVERRIDE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -97,4 +102,10 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except SystemExit:
+        raise
+    except Exception:
+        traceback.print_exc()
+        raise SystemExit(1)

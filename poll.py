@@ -171,7 +171,8 @@ def send_ntfy(title: str, body: str, click: str, actions: str | None) -> bool:
     if not topic:
         print("  NTFY_TOPIC 未設定 — 送信スキップ（ログのみ）", file=sys.stderr)
         return False
-    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    # 空文字も既定に倒す（Actions は未定義の vars を "" として渡してくるため）
+    server = (os.environ.get("NTFY_SERVER") or "https://ntfy.sh").rstrip("/")
     url = f"{server}/{topic}" if not topic.startswith("http") else topic
     headers = {
         "Title": title.encode("utf-8"),
