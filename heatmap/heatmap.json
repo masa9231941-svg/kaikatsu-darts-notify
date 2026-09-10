@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:27:27",
+  "generated_at": "2026-09-10T15:27:22",
   "stores": {
     "20332": {
       "capacity": 15,
@@ -882,263 +882,293 @@
             "p_open": 0.75
           },
           "1": {
-            "avg_free": 1.33,
-            "avg_occupancy": 13.67,
-            "n": 3,
+            "avg_free": 1.2,
+            "avg_occupancy": 13.8,
+            "n": 5,
             "p_open": 1.0
           },
           "2": {
-            "avg_free": 0.5,
-            "avg_occupancy": 14.5,
-            "n": 2,
-            "p_open": 0.5
+            "avg_free": 1.25,
+            "avg_occupancy": 13.75,
+            "n": 4,
+            "p_open": 0.75
           },
           "3": {
-            "avg_free": 1.67,
-            "avg_occupancy": 13.33,
-            "n": 3,
-            "p_open": 0.667
+            "avg_free": 2.17,
+            "avg_occupancy": 12.83,
+            "n": 6,
+            "p_open": 0.833
           },
           "4": {
-            "avg_free": 4.33,
-            "avg_occupancy": 10.67,
-            "n": 3,
+            "avg_free": 4.83,
+            "avg_occupancy": 10.17,
+            "n": 6,
             "p_open": 1.0
           },
           "5": {
-            "avg_free": 6.0,
-            "avg_occupancy": 9.0,
-            "n": 3,
+            "avg_free": 5.83,
+            "avg_occupancy": 9.17,
+            "n": 6,
             "p_open": 1.0
           },
           "6": {
-            "avg_free": 7.5,
-            "avg_occupancy": 7.5,
-            "n": 2,
+            "avg_free": 7.25,
+            "avg_occupancy": 7.75,
+            "n": 4,
             "p_open": 1.0
           },
           "7": {
-            "avg_free": 10.0,
-            "avg_occupancy": 5.0,
-            "n": 3,
+            "avg_free": 8.83,
+            "avg_occupancy": 6.17,
+            "n": 6,
             "p_open": 1.0
           },
           "8": {
-            "avg_free": 10.0,
-            "avg_occupancy": 5.0,
-            "n": 3,
+            "avg_free": 8.33,
+            "avg_occupancy": 6.67,
+            "n": 6,
             "p_open": 1.0
           },
           "9": {
-            "avg_free": 10.0,
-            "avg_occupancy": 5.0,
-            "n": 3,
+            "avg_free": 9.5,
+            "avg_occupancy": 5.5,
+            "n": 6,
             "p_open": 1.0
           },
           "10": {
-            "avg_free": 10.0,
-            "avg_occupancy": 5.0,
-            "n": 2,
+            "avg_free": 9.5,
+            "avg_occupancy": 5.5,
+            "n": 4,
             "p_open": 1.0
           },
           "11": {
-            "avg_free": 10.0,
-            "avg_occupancy": 5.0,
-            "n": 3,
+            "avg_free": 9.0,
+            "avg_occupancy": 6.0,
+            "n": 6,
             "p_open": 1.0
           },
           "12": {
-            "avg_free": 10.0,
-            "avg_occupancy": 5.0,
-            "n": 3,
+            "avg_free": 9.33,
+            "avg_occupancy": 5.67,
+            "n": 6,
             "p_open": 1.0
           },
           "13": {
             "avg_free": 10.0,
             "avg_occupancy": 5.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "14": {
             "avg_free": 10.0,
             "avg_occupancy": 5.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "15": {
             "avg_free": 10.0,
             "avg_occupancy": 5.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "16": {
             "avg_free": 10.0,
             "avg_occupancy": 5.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "17": {
             "avg_free": 10.0,
             "avg_occupancy": 5.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "18": {
-            "avg_free": 9.5,
-            "avg_occupancy": 5.5,
-            "n": 2,
+            "avg_free": 9.75,
+            "avg_occupancy": 5.25,
+            "n": 4,
             "p_open": 1.0
           },
           "19": {
-            "avg_free": 8.5,
-            "avg_occupancy": 6.5,
-            "n": 2,
+            "avg_free": 9.25,
+            "avg_occupancy": 5.75,
+            "n": 4,
             "p_open": 1.0
           },
           "20": {
-            "avg_free": 7.5,
-            "avg_occupancy": 7.5,
-            "n": 2,
+            "avg_free": 8.2,
+            "avg_occupancy": 6.8,
+            "n": 5,
             "p_open": 1.0
           },
           "21": {
-            "avg_free": 9.0,
-            "avg_occupancy": 6.0,
-            "n": 3,
+            "avg_free": 8.0,
+            "avg_occupancy": 7.0,
+            "n": 6,
             "p_open": 1.0
           },
           "22": {
-            "avg_free": 9.0,
-            "avg_occupancy": 6.0,
+            "avg_free": 7.25,
+            "avg_occupancy": 7.75,
+            "n": 4,
+            "p_open": 1.0
+          },
+          "23": {
+            "avg_free": 5.67,
+            "avg_occupancy": 9.33,
+            "n": 3,
+            "p_open": 1.0
+          },
+          "24": {
+            "avg_free": 5.5,
+            "avg_occupancy": 9.5,
             "n": 2,
+            "p_open": 1.0
+          },
+          "25": {
+            "avg_free": 7.0,
+            "avg_occupancy": 8.0,
+            "n": 3,
+            "p_open": 1.0
+          },
+          "26": {
+            "avg_free": 7.0,
+            "avg_occupancy": 8.0,
+            "n": 2,
+            "p_open": 1.0
+          },
+          "27": {
+            "avg_free": 5.33,
+            "avg_occupancy": 9.67,
+            "n": 3,
             "p_open": 1.0
           },
           "28": {
-            "avg_free": 1.0,
-            "avg_occupancy": 14.0,
-            "n": 1,
+            "avg_free": 3.5,
+            "avg_occupancy": 11.5,
+            "n": 4,
             "p_open": 1.0
           },
           "29": {
-            "avg_free": 2.0,
-            "avg_occupancy": 13.0,
-            "n": 2,
+            "avg_free": 4.0,
+            "avg_occupancy": 11.0,
+            "n": 5,
             "p_open": 1.0
           },
           "30": {
-            "avg_free": 3.0,
-            "avg_occupancy": 12.0,
-            "n": 1,
+            "avg_free": 3.33,
+            "avg_occupancy": 11.67,
+            "n": 3,
             "p_open": 1.0
           },
           "31": {
-            "avg_free": 4.33,
-            "avg_occupancy": 10.67,
-            "n": 3,
+            "avg_free": 4.2,
+            "avg_occupancy": 10.8,
+            "n": 5,
             "p_open": 1.0
           },
           "32": {
-            "avg_free": 5.0,
-            "avg_occupancy": 10.0,
-            "n": 2,
+            "avg_free": 4.5,
+            "avg_occupancy": 10.5,
+            "n": 4,
             "p_open": 1.0
           },
           "33": {
-            "avg_free": 4.33,
-            "avg_occupancy": 10.67,
-            "n": 3,
+            "avg_free": 3.5,
+            "avg_occupancy": 11.5,
+            "n": 6,
             "p_open": 1.0
           },
           "34": {
-            "avg_free": 4.0,
-            "avg_occupancy": 11.0,
-            "n": 2,
+            "avg_free": 3.5,
+            "avg_occupancy": 11.5,
+            "n": 4,
             "p_open": 1.0
           },
           "35": {
-            "avg_free": 5.0,
-            "avg_occupancy": 10.0,
-            "n": 3,
+            "avg_free": 5.17,
+            "avg_occupancy": 9.83,
+            "n": 6,
             "p_open": 1.0
           },
           "36": {
-            "avg_free": 3.0,
-            "avg_occupancy": 12.0,
-            "n": 2,
+            "avg_free": 6.0,
+            "avg_occupancy": 9.0,
+            "n": 4,
             "p_open": 1.0
           },
           "37": {
-            "avg_free": 3.33,
-            "avg_occupancy": 11.67,
-            "n": 3,
+            "avg_free": 6.0,
+            "avg_occupancy": 9.0,
+            "n": 6,
             "p_open": 1.0
           },
           "38": {
-            "avg_free": 2.5,
-            "avg_occupancy": 12.5,
-            "n": 2,
+            "avg_free": 4.5,
+            "avg_occupancy": 10.5,
+            "n": 4,
             "p_open": 1.0
           },
           "39": {
-            "avg_free": 1.33,
-            "avg_occupancy": 13.67,
-            "n": 3,
+            "avg_free": 1.5,
+            "avg_occupancy": 13.5,
+            "n": 6,
             "p_open": 0.667
           },
           "40": {
-            "avg_free": 0.0,
-            "avg_occupancy": 15.0,
-            "n": 3,
-            "p_open": 0.0
+            "avg_free": 0.4,
+            "avg_occupancy": 14.6,
+            "n": 5,
+            "p_open": 0.4
           },
           "41": {
-            "avg_free": 0.0,
-            "avg_occupancy": 15.0,
-            "n": 3,
-            "p_open": 0.0
+            "avg_free": 0.83,
+            "avg_occupancy": 14.17,
+            "n": 6,
+            "p_open": 0.5
           },
           "42": {
-            "avg_free": 2.5,
-            "avg_occupancy": 12.5,
-            "n": 2,
-            "p_open": 1.0
+            "avg_free": 1.75,
+            "avg_occupancy": 13.25,
+            "n": 4,
+            "p_open": 0.75
           },
           "43": {
-            "avg_free": 1.0,
-            "avg_occupancy": 14.0,
-            "n": 2,
+            "avg_free": 1.25,
+            "avg_occupancy": 13.75,
+            "n": 4,
             "p_open": 1.0
           },
           "44": {
-            "avg_free": 0.0,
-            "avg_occupancy": 15.0,
-            "n": 2,
-            "p_open": 0.0
+            "avg_free": 2.2,
+            "avg_occupancy": 12.8,
+            "n": 5,
+            "p_open": 0.6
           },
           "45": {
-            "avg_free": 1.0,
-            "avg_occupancy": 14.0,
-            "n": 4,
-            "p_open": 0.5
+            "avg_free": 1.67,
+            "avg_occupancy": 13.33,
+            "n": 6,
+            "p_open": 0.667
           },
           "46": {
-            "avg_free": 2.0,
-            "avg_occupancy": 13.0,
-            "n": 2,
+            "avg_free": 3.0,
+            "avg_occupancy": 12.0,
+            "n": 4,
             "p_open": 1.0
           },
           "47": {
-            "avg_free": 3.33,
-            "avg_occupancy": 11.67,
-            "n": 3,
+            "avg_free": 4.17,
+            "avg_occupancy": 10.83,
+            "n": 6,
             "p_open": 1.0
           }
         },
         "4": {
           "0": {
-            "avg_free": 5.0,
-            "avg_occupancy": 10.0,
-            "n": 2,
+            "avg_free": 4.75,
+            "avg_occupancy": 10.25,
+            "n": 4,
             "p_open": 1.0
           },
           "1": {
@@ -2005,10 +2035,10 @@
           }
         }
       },
-      "median_full_streak_min": 35.3,
-      "n_observations": 1050,
+      "median_full_streak_min": 32.5,
+      "n_observations": 1173,
       "name": "横浜北山田店",
-      "openings_per_hour": 0.197
+      "openings_per_hour": 0.19
     },
     "20391": {
       "capacity": 4,
@@ -2891,264 +2921,294 @@
             "p_open": 0.5
           },
           "1": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
+            "avg_free": 0.4,
+            "avg_occupancy": 3.6,
+            "n": 5,
+            "p_open": 0.4
           },
           "2": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.5
           },
           "3": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 6,
             "p_open": 0.0
           },
           "4": {
-            "avg_free": 0.33,
-            "avg_occupancy": 3.67,
-            "n": 3,
-            "p_open": 0.333
+            "avg_free": 0.17,
+            "avg_occupancy": 3.83,
+            "n": 6,
+            "p_open": 0.167
           },
           "5": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 6,
             "p_open": 0.0
           },
           "6": {
             "avg_free": 0.5,
             "avg_occupancy": 3.5,
-            "n": 2,
+            "n": 4,
             "p_open": 0.5
           },
           "7": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 0.67,
+            "avg_occupancy": 3.33,
+            "n": 6,
+            "p_open": 0.667
           },
           "8": {
-            "avg_free": 1.67,
-            "avg_occupancy": 2.33,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 6,
+            "p_open": 0.833
           },
           "9": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "10": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 2,
+            "avg_free": 2.75,
+            "avg_occupancy": 1.25,
+            "n": 4,
             "p_open": 1.0
           },
           "11": {
             "avg_free": 3.0,
             "avg_occupancy": 1.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "12": {
-            "avg_free": 3.67,
-            "avg_occupancy": 0.33,
-            "n": 3,
+            "avg_free": 3.0,
+            "avg_occupancy": 1.0,
+            "n": 6,
             "p_open": 1.0
           },
           "13": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "14": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.67,
+            "avg_occupancy": 1.33,
+            "n": 6,
             "p_open": 1.0
           },
           "15": {
-            "avg_free": 3.67,
-            "avg_occupancy": 0.33,
-            "n": 3,
+            "avg_free": 2.83,
+            "avg_occupancy": 1.17,
+            "n": 6,
             "p_open": 1.0
           },
           "16": {
-            "avg_free": 4.0,
-            "avg_occupancy": 0.0,
-            "n": 3,
+            "avg_free": 2.67,
+            "avg_occupancy": 1.33,
+            "n": 6,
             "p_open": 1.0
           },
           "17": {
-            "avg_free": 4.0,
-            "avg_occupancy": 0.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "18": {
-            "avg_free": 3.5,
-            "avg_occupancy": 0.5,
-            "n": 2,
+            "avg_free": 2.25,
+            "avg_occupancy": 1.75,
+            "n": 4,
             "p_open": 1.0
           },
           "19": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 2,
+            "avg_free": 2.0,
+            "avg_occupancy": 2.0,
+            "n": 4,
             "p_open": 1.0
           },
           "20": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 2,
+            "avg_free": 2.0,
+            "avg_occupancy": 2.0,
+            "n": 5,
             "p_open": 1.0
           },
           "21": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "22": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 2,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 4,
             "p_open": 1.0
           },
-          "28": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 1,
+          "23": {
+            "avg_free": 2.67,
+            "avg_occupancy": 1.33,
+            "n": 3,
             "p_open": 1.0
           },
-          "29": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "30": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 1,
-            "p_open": 0.0
-          },
-          "31": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "32": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 2,
-            "p_open": 1.0
-          },
-          "33": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "34": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "35": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "36": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "37": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "38": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "39": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "40": {
-            "avg_free": 0.67,
-            "avg_occupancy": 3.33,
-            "n": 3,
-            "p_open": 0.667
-          },
-          "41": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "42": {
+          "24": {
             "avg_free": 1.5,
             "avg_occupancy": 2.5,
             "n": 2,
             "p_open": 1.0
           },
-          "43": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+          "25": {
+            "avg_free": 0.67,
+            "avg_occupancy": 3.33,
+            "n": 3,
+            "p_open": 0.667
           },
-          "44": {
+          "26": {
             "avg_free": 0.5,
             "avg_occupancy": 3.5,
             "n": 2,
             "p_open": 0.5
           },
-          "45": {
-            "avg_free": 0.25,
-            "avg_occupancy": 3.75,
-            "n": 4,
-            "p_open": 0.25
-          },
-          "46": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "47": {
+          "27": {
             "avg_free": 0.33,
             "avg_occupancy": 3.67,
             "n": 3,
             "p_open": 0.333
+          },
+          "28": {
+            "avg_free": 0.75,
+            "avg_occupancy": 3.25,
+            "n": 4,
+            "p_open": 0.75
+          },
+          "29": {
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 5,
+            "p_open": 0.6
+          },
+          "30": {
+            "avg_free": 0.67,
+            "avg_occupancy": 3.33,
+            "n": 3,
+            "p_open": 0.333
+          },
+          "31": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 5,
+            "p_open": 0.0
+          },
+          "32": {
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.5
+          },
+          "33": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 6,
+            "p_open": 0.0
+          },
+          "34": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 4,
+            "p_open": 0.0
+          },
+          "35": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 6,
+            "p_open": 0.0
+          },
+          "36": {
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.5
+          },
+          "37": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 6,
+            "p_open": 0.0
+          },
+          "38": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 4,
+            "p_open": 0.0
+          },
+          "39": {
+            "avg_free": 0.17,
+            "avg_occupancy": 3.83,
+            "n": 6,
+            "p_open": 0.167
+          },
+          "40": {
+            "avg_free": 0.6,
+            "avg_occupancy": 3.4,
+            "n": 5,
+            "p_open": 0.6
+          },
+          "41": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 6,
+            "p_open": 0.0
+          },
+          "42": {
+            "avg_free": 0.75,
+            "avg_occupancy": 3.25,
+            "n": 4,
+            "p_open": 0.5
+          },
+          "43": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 4,
+            "p_open": 0.0
+          },
+          "44": {
+            "avg_free": 0.4,
+            "avg_occupancy": 3.6,
+            "n": 5,
+            "p_open": 0.4
+          },
+          "45": {
+            "avg_free": 0.17,
+            "avg_occupancy": 3.83,
+            "n": 6,
+            "p_open": 0.167
+          },
+          "46": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 4,
+            "p_open": 0.0
+          },
+          "47": {
+            "avg_free": 0.67,
+            "avg_occupancy": 3.33,
+            "n": 6,
+            "p_open": 0.667
           }
         },
         "4": {
           "0": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 2,
-            "p_open": 1.0
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.5
           },
           "1": {
             "avg_free": 2.0,
@@ -4014,10 +4074,10 @@
           }
         }
       },
-      "median_full_streak_min": 59.3,
-      "n_observations": 1050,
+      "median_full_streak_min": 59.6,
+      "n_observations": 1173,
       "name": "百合ヶ丘店",
-      "openings_per_hour": 0.26
+      "openings_per_hour": 0.267
     },
     "20895": {
       "capacity": 4,
@@ -4900,255 +4960,285 @@
             "p_open": 0.5
           },
           "1": {
-            "avg_free": 0.33,
-            "avg_occupancy": 3.67,
-            "n": 3,
-            "p_open": 0.333
+            "avg_free": 1.2,
+            "avg_occupancy": 2.8,
+            "n": 5,
+            "p_open": 0.6
           },
           "2": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+            "avg_free": 0.75,
+            "avg_occupancy": 3.25,
+            "n": 4,
+            "p_open": 0.5
           },
           "3": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
+            "avg_free": 0.83,
+            "avg_occupancy": 3.17,
+            "n": 6,
+            "p_open": 0.5
           },
           "4": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 3,
-            "p_open": 0.667
+            "avg_free": 1.83,
+            "avg_occupancy": 2.17,
+            "n": 6,
+            "p_open": 0.833
           },
           "5": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
+            "avg_free": 2.17,
+            "avg_occupancy": 1.83,
+            "n": 6,
             "p_open": 1.0
           },
           "6": {
             "avg_free": 2.0,
             "avg_occupancy": 2.0,
-            "n": 2,
+            "n": 4,
             "p_open": 1.0
           },
           "7": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.67,
+            "avg_occupancy": 2.33,
+            "n": 6,
+            "p_open": 0.833
           },
           "8": {
-            "avg_free": 2.67,
-            "avg_occupancy": 1.33,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 6,
+            "p_open": 0.667
           },
           "9": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 6,
+            "p_open": 0.5
           },
           "10": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 2,
-            "p_open": 1.0
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 4,
+            "p_open": 0.5
           },
           "11": {
-            "avg_free": 2.67,
-            "avg_occupancy": 1.33,
-            "n": 3,
+            "avg_free": 1.83,
+            "avg_occupancy": 2.17,
+            "n": 6,
             "p_open": 1.0
           },
           "12": {
-            "avg_free": 2.67,
-            "avg_occupancy": 1.33,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 6,
+            "p_open": 0.667
           },
           "13": {
-            "avg_free": 2.33,
-            "avg_occupancy": 1.67,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.17,
+            "avg_occupancy": 2.83,
+            "n": 6,
+            "p_open": 0.5
           },
           "14": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 6,
+            "p_open": 0.5
           },
           "15": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.33,
+            "avg_occupancy": 2.67,
+            "n": 6,
+            "p_open": 0.833
           },
           "16": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.17,
+            "avg_occupancy": 2.83,
+            "n": 6,
+            "p_open": 0.667
           },
           "17": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
-            "p_open": 1.0
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 6,
+            "p_open": 0.5
           },
           "18": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 2,
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 4,
             "p_open": 1.0
           },
           "19": {
             "avg_free": 2.0,
             "avg_occupancy": 2.0,
-            "n": 2,
+            "n": 4,
             "p_open": 1.0
           },
           "20": {
-            "avg_free": 1.5,
-            "avg_occupancy": 2.5,
-            "n": 2,
+            "avg_free": 2.0,
+            "avg_occupancy": 2.0,
+            "n": 5,
             "p_open": 1.0
           },
           "21": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 3,
+            "avg_free": 1.67,
+            "avg_occupancy": 2.33,
+            "n": 6,
             "p_open": 1.0
           },
           "22": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+            "avg_free": 0.25,
+            "avg_occupancy": 3.75,
+            "n": 4,
+            "p_open": 0.25
           },
-          "28": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 1,
-            "p_open": 1.0
-          },
-          "29": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "30": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 1,
-            "p_open": 0.0
-          },
-          "31": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "32": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "33": {
+          "23": {
             "avg_free": 0.33,
             "avg_occupancy": 3.67,
             "n": 3,
             "p_open": 0.333
           },
-          "34": {
-            "avg_free": 0.5,
-            "avg_occupancy": 3.5,
+          "24": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
             "n": 2,
-            "p_open": 0.5
+            "p_open": 0.0
+          },
+          "25": {
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 3,
+            "p_open": 1.0
+          },
+          "26": {
+            "avg_free": 1.5,
+            "avg_occupancy": 2.5,
+            "n": 2,
+            "p_open": 1.0
+          },
+          "27": {
+            "avg_free": 2.0,
+            "avg_occupancy": 2.0,
+            "n": 3,
+            "p_open": 1.0
+          },
+          "28": {
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 4,
+            "p_open": 0.75
+          },
+          "29": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 5,
+            "p_open": 0.0
+          },
+          "30": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 3,
+            "p_open": 0.0
+          },
+          "31": {
+            "avg_free": 0.0,
+            "avg_occupancy": 4.0,
+            "n": 5,
+            "p_open": 0.0
+          },
+          "32": {
+            "avg_free": 0.25,
+            "avg_occupancy": 3.75,
+            "n": 4,
+            "p_open": 0.25
+          },
+          "33": {
+            "avg_free": 0.17,
+            "avg_occupancy": 3.83,
+            "n": 6,
+            "p_open": 0.167
+          },
+          "34": {
+            "avg_free": 0.25,
+            "avg_occupancy": 3.75,
+            "n": 4,
+            "p_open": 0.25
           },
           "35": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 6,
             "p_open": 0.0
           },
           "36": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 2,
+            "n": 4,
             "p_open": 0.0
           },
           "37": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 3,
-            "p_open": 0.667
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 6,
+            "p_open": 0.333
           },
           "38": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 2,
-            "p_open": 0.5
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.25
           },
           "39": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 6,
             "p_open": 0.0
           },
           "40": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 5,
             "p_open": 0.0
           },
           "41": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 6,
             "p_open": 0.0
           },
           "42": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 2,
+            "n": 4,
             "p_open": 0.0
           },
           "43": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 2,
+            "n": 4,
             "p_open": 0.0
           },
           "44": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 2,
+            "n": 5,
             "p_open": 0.0
           },
           "45": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 4,
-            "p_open": 0.0
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 6,
+            "p_open": 0.333
           },
           "46": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+            "avg_free": 0.25,
+            "avg_occupancy": 3.75,
+            "n": 4,
+            "p_open": 0.25
           },
           "47": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 6,
             "p_open": 0.0
           }
         },
@@ -5156,7 +5246,7 @@
           "0": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 2,
+            "n": 4,
             "p_open": 0.0
           },
           "1": {
@@ -6023,10 +6113,10 @@
           }
         }
       },
-      "median_full_streak_min": 83.8,
-      "n_observations": 1050,
+      "median_full_streak_min": 77.8,
+      "n_observations": 1173,
       "name": "登戸駅前店",
-      "openings_per_hour": 0.298
+      "openings_per_hour": 0.306
     },
     "20903": {
       "capacity": 4,
@@ -6911,262 +7001,292 @@
           "1": {
             "avg_free": 2.0,
             "avg_occupancy": 2.0,
-            "n": 3,
+            "n": 5,
             "p_open": 1.0
           },
           "2": {
             "avg_free": 2.0,
             "avg_occupancy": 2.0,
-            "n": 2,
+            "n": 4,
             "p_open": 1.0
           },
           "3": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.83,
+            "avg_occupancy": 1.17,
+            "n": 6,
             "p_open": 1.0
           },
           "4": {
-            "avg_free": 2.33,
-            "avg_occupancy": 1.67,
-            "n": 3,
+            "avg_free": 3.17,
+            "avg_occupancy": 0.83,
+            "n": 6,
             "p_open": 1.0
           },
           "5": {
-            "avg_free": 2.0,
-            "avg_occupancy": 2.0,
-            "n": 3,
+            "avg_free": 3.0,
+            "avg_occupancy": 1.0,
+            "n": 6,
             "p_open": 1.0
           },
           "6": {
-            "avg_free": 1.5,
-            "avg_occupancy": 2.5,
-            "n": 2,
+            "avg_free": 2.75,
+            "avg_occupancy": 1.25,
+            "n": 4,
             "p_open": 1.0
           },
           "7": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "8": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "9": {
-            "avg_free": 1.33,
-            "avg_occupancy": 2.67,
-            "n": 3,
+            "avg_free": 2.17,
+            "avg_occupancy": 1.83,
+            "n": 6,
             "p_open": 1.0
           },
           "10": {
-            "avg_free": 2.5,
-            "avg_occupancy": 1.5,
-            "n": 2,
+            "avg_free": 2.75,
+            "avg_occupancy": 1.25,
+            "n": 4,
             "p_open": 1.0
           },
           "11": {
-            "avg_free": 3.67,
-            "avg_occupancy": 0.33,
-            "n": 3,
+            "avg_free": 3.33,
+            "avg_occupancy": 0.67,
+            "n": 6,
             "p_open": 1.0
           },
           "12": {
-            "avg_free": 4.0,
-            "avg_occupancy": 0.0,
-            "n": 3,
+            "avg_free": 3.0,
+            "avg_occupancy": 1.0,
+            "n": 6,
             "p_open": 1.0
           },
           "13": {
-            "avg_free": 4.0,
-            "avg_occupancy": 0.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "14": {
-            "avg_free": 3.33,
-            "avg_occupancy": 0.67,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "15": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.5,
+            "avg_occupancy": 1.5,
+            "n": 6,
             "p_open": 1.0
           },
           "16": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 3,
+            "avg_free": 2.83,
+            "avg_occupancy": 1.17,
+            "n": 6,
             "p_open": 1.0
           },
           "17": {
             "avg_free": 3.0,
             "avg_occupancy": 1.0,
-            "n": 3,
+            "n": 6,
             "p_open": 1.0
           },
           "18": {
             "avg_free": 3.0,
             "avg_occupancy": 1.0,
-            "n": 2,
+            "n": 4,
             "p_open": 1.0
           },
           "19": {
             "avg_free": 3.0,
             "avg_occupancy": 1.0,
-            "n": 2,
+            "n": 4,
             "p_open": 1.0
           },
           "20": {
-            "avg_free": 3.0,
-            "avg_occupancy": 1.0,
-            "n": 2,
+            "avg_free": 2.8,
+            "avg_occupancy": 1.2,
+            "n": 5,
             "p_open": 1.0
           },
           "21": {
+            "avg_free": 2.83,
+            "avg_occupancy": 1.17,
+            "n": 6,
+            "p_open": 1.0
+          },
+          "22": {
+            "avg_free": 2.75,
+            "avg_occupancy": 1.25,
+            "n": 4,
+            "p_open": 1.0
+          },
+          "23": {
             "avg_free": 3.0,
             "avg_occupancy": 1.0,
             "n": 3,
             "p_open": 1.0
           },
-          "22": {
-            "avg_free": 2.5,
-            "avg_occupancy": 1.5,
+          "24": {
+            "avg_free": 3.0,
+            "avg_occupancy": 1.0,
             "n": 2,
             "p_open": 1.0
           },
-          "28": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 1,
-            "p_open": 0.0
+          "25": {
+            "avg_free": 2.0,
+            "avg_occupancy": 2.0,
+            "n": 3,
+            "p_open": 1.0
           },
-          "29": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
+          "26": {
+            "avg_free": 2.0,
+            "avg_occupancy": 2.0,
             "n": 2,
-            "p_open": 0.0
+            "p_open": 1.0
           },
-          "30": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 1,
-            "p_open": 0.0
-          },
-          "31": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "32": {
-            "avg_free": 0.5,
-            "avg_occupancy": 3.5,
-            "n": 2,
-            "p_open": 0.5
-          },
-          "33": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "34": {
-            "avg_free": 0.5,
-            "avg_occupancy": 3.5,
-            "n": 2,
-            "p_open": 0.5
-          },
-          "35": {
-            "avg_free": 0.67,
-            "avg_occupancy": 3.33,
-            "n": 3,
-            "p_open": 0.667
-          },
-          "36": {
-            "avg_free": 0.5,
-            "avg_occupancy": 3.5,
-            "n": 2,
-            "p_open": 0.5
-          },
-          "37": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "38": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
-          },
-          "39": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 3,
-            "p_open": 0.0
-          },
-          "40": {
-            "avg_free": 0.33,
-            "avg_occupancy": 3.67,
-            "n": 3,
-            "p_open": 0.333
-          },
-          "41": {
+          "27": {
             "avg_free": 1.0,
             "avg_occupancy": 3.0,
             "n": 3,
             "p_open": 1.0
           },
-          "42": {
-            "avg_free": 0.5,
-            "avg_occupancy": 3.5,
-            "n": 2,
+          "28": {
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 4,
+            "p_open": 0.75
+          },
+          "29": {
+            "avg_free": 0.6,
+            "avg_occupancy": 3.4,
+            "n": 5,
+            "p_open": 0.6
+          },
+          "30": {
+            "avg_free": 0.67,
+            "avg_occupancy": 3.33,
+            "n": 3,
+            "p_open": 0.667
+          },
+          "31": {
+            "avg_free": 0.2,
+            "avg_occupancy": 3.8,
+            "n": 5,
+            "p_open": 0.2
+          },
+          "32": {
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 4,
+            "p_open": 0.75
+          },
+          "33": {
+            "avg_free": 1.17,
+            "avg_occupancy": 2.83,
+            "n": 6,
             "p_open": 0.5
           },
-          "43": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+          "34": {
+            "avg_free": 1.25,
+            "avg_occupancy": 2.75,
+            "n": 4,
+            "p_open": 0.75
           },
-          "44": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+          "35": {
+            "avg_free": 1.17,
+            "avg_occupancy": 2.83,
+            "n": 6,
+            "p_open": 0.833
           },
-          "45": {
+          "36": {
+            "avg_free": 0.75,
+            "avg_occupancy": 3.25,
+            "n": 4,
+            "p_open": 0.75
+          },
+          "37": {
+            "avg_free": 0.17,
+            "avg_occupancy": 3.83,
+            "n": 6,
+            "p_open": 0.167
+          },
+          "38": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
             "n": 4,
             "p_open": 0.0
           },
-          "46": {
+          "39": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 2,
+            "n": 6,
             "p_open": 0.0
           },
-          "47": {
+          "40": {
+            "avg_free": 0.2,
+            "avg_occupancy": 3.8,
+            "n": 5,
+            "p_open": 0.2
+          },
+          "41": {
+            "avg_free": 1.0,
+            "avg_occupancy": 3.0,
+            "n": 6,
+            "p_open": 1.0
+          },
+          "42": {
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.5
+          },
+          "43": {
             "avg_free": 0.0,
             "avg_occupancy": 4.0,
-            "n": 3,
+            "n": 4,
             "p_open": 0.0
+          },
+          "44": {
+            "avg_free": 0.2,
+            "avg_occupancy": 3.8,
+            "n": 5,
+            "p_open": 0.2
+          },
+          "45": {
+            "avg_free": 0.33,
+            "avg_occupancy": 3.67,
+            "n": 6,
+            "p_open": 0.333
+          },
+          "46": {
+            "avg_free": 0.75,
+            "avg_occupancy": 3.25,
+            "n": 4,
+            "p_open": 0.5
+          },
+          "47": {
+            "avg_free": 0.67,
+            "avg_occupancy": 3.33,
+            "n": 6,
+            "p_open": 0.5
           }
         },
         "4": {
           "0": {
-            "avg_free": 0.0,
-            "avg_occupancy": 4.0,
-            "n": 2,
-            "p_open": 0.0
+            "avg_free": 0.5,
+            "avg_occupancy": 3.5,
+            "n": 4,
+            "p_open": 0.5
           },
           "1": {
             "avg_free": 0.0,
@@ -8032,10 +8152,10 @@
           }
         }
       },
-      "median_full_streak_min": 82.4,
-      "n_observations": 1050,
+      "median_full_streak_min": 81.7,
+      "n_observations": 1173,
       "name": "調布南口店",
-      "openings_per_hour": 0.24
+      "openings_per_hour": 0.228
     }
   }
 }
