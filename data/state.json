@@ -2,25 +2,25 @@
   "20332": {
     "capacity_est": 15,
     "last_notified_ts": 0,
-    "last_seen_ts": 1789903007,
-    "last_state": "AVAILABLE"
+    "last_seen_ts": 1789903546,
+    "last_state": "FULL"
   },
   "20391": {
     "capacity_est": 4,
     "last_notified_ts": 1789501526,
-    "last_seen_ts": 1789903007,
+    "last_seen_ts": 1789903546,
     "last_state": "FULL"
   },
   "20895": {
     "capacity_est": 4,
     "last_notified_ts": 1789490771,
-    "last_seen_ts": 1789903007,
+    "last_seen_ts": 1789903546,
     "last_state": "FULL"
   },
   "20903": {
     "capacity_est": 4,
     "last_notified_ts": 1789505611,
-    "last_seen_ts": 1789903007,
-    "last_state": "FULL"
+    "last_seen_ts": 1789903546,
+    "last_state": "AVAILABLE"
   }
 }
