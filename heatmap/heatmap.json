@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:17:26",
+  "generated_at": "2026-11-11T21:56:39",
   "stores": {
     "20332": {
       "capacity": 15,
@@ -678,7 +678,7 @@
           "15": {
             "avg_free": 9.94,
             "avg_occupancy": 5.06,
-            "n": 16,
+            "n": 17,
             "p_open": 1.0
           },
           "16": {
@@ -718,10 +718,10 @@
             "p_open": 0.867
           },
           "22": {
-            "avg_free": 6.8,
-            "avg_occupancy": 8.2,
-            "n": 10,
-            "p_open": 0.9
+            "avg_free": 6.91,
+            "avg_occupancy": 8.09,
+            "n": 11,
+            "p_open": 0.909
           },
           "23": {
             "avg_free": 7.5,
@@ -802,10 +802,10 @@
             "p_open": 0.933
           },
           "36": {
-            "avg_free": 4.36,
-            "avg_occupancy": 10.64,
-            "n": 11,
-            "p_open": 0.909
+            "avg_free": 4.08,
+            "avg_occupancy": 10.92,
+            "n": 12,
+            "p_open": 0.917
           },
           "37": {
             "avg_free": 3.8,
@@ -900,9 +900,9 @@
             "p_open": 0.938
           },
           "4": {
-            "avg_free": 5.6,
-            "avg_occupancy": 9.4,
-            "n": 15,
+            "avg_free": 5.75,
+            "avg_occupancy": 9.25,
+            "n": 16,
             "p_open": 1.0
           },
           "5": {
@@ -2036,9 +2036,9 @@
         }
       },
       "median_full_streak_min": 40.4,
-      "n_observations": 3955,
+      "n_observations": 3959,
       "name": "横浜北山田店",
-      "openings_per_hour": 0.121
+      "openings_per_hour": 0.119
     },
     "20391": {
       "capacity": 4,
@@ -2715,10 +2715,10 @@
             "p_open": 0.8
           },
           "15": {
-            "avg_free": 1.81,
-            "avg_occupancy": 2.19,
-            "n": 16,
-            "p_open": 0.75
+            "avg_free": 1.88,
+            "avg_occupancy": 2.12,
+            "n": 17,
+            "p_open": 0.765
           },
           "16": {
             "avg_free": 1.94,
@@ -2759,7 +2759,7 @@
           "22": {
             "avg_free": 2.0,
             "avg_occupancy": 2.0,
-            "n": 10,
+            "n": 11,
             "p_open": 1.0
           },
           "23": {
@@ -2841,10 +2841,10 @@
             "p_open": 0.267
           },
           "36": {
-            "avg_free": 0.64,
-            "avg_occupancy": 3.36,
-            "n": 11,
-            "p_open": 0.545
+            "avg_free": 0.58,
+            "avg_occupancy": 3.42,
+            "n": 12,
+            "p_open": 0.5
           },
           "37": {
             "avg_free": 0.53,
@@ -2939,10 +2939,10 @@
             "p_open": 0.312
           },
           "4": {
-            "avg_free": 1.0,
-            "avg_occupancy": 3.0,
-            "n": 15,
-            "p_open": 0.6
+            "avg_free": 1.06,
+            "avg_occupancy": 2.94,
+            "n": 16,
+            "p_open": 0.625
           },
           "5": {
             "avg_free": 1.13,
@@ -4074,10 +4074,10 @@
           }
         }
       },
-      "median_full_streak_min": 101.9,
-      "n_observations": 3955,
+      "median_full_streak_min": 102.7,
+      "n_observations": 3959,
       "name": "百合ヶ丘店",
-      "openings_per_hour": 0.142
+      "openings_per_hour": 0.141
     },
     "20895": {
       "capacity": 4,
@@ -4754,9 +4754,9 @@
             "p_open": 1.0
           },
           "15": {
-            "avg_free": 2.56,
-            "avg_occupancy": 1.44,
-            "n": 16,
+            "avg_free": 2.65,
+            "avg_occupancy": 1.35,
+            "n": 17,
             "p_open": 1.0
           },
           "16": {
@@ -4796,10 +4796,10 @@
             "p_open": 0.733
           },
           "22": {
-            "avg_free": 1.2,
-            "avg_occupancy": 2.8,
-            "n": 10,
-            "p_open": 0.7
+            "avg_free": 1.09,
+            "avg_occupancy": 2.91,
+            "n": 11,
+            "p_open": 0.636
           },
           "23": {
             "avg_free": 1.0,
@@ -4880,10 +4880,10 @@
             "p_open": 0.133
           },
           "36": {
-            "avg_free": 0.18,
-            "avg_occupancy": 3.82,
-            "n": 11,
-            "p_open": 0.182
+            "avg_free": 0.17,
+            "avg_occupancy": 3.83,
+            "n": 12,
+            "p_open": 0.167
           },
           "37": {
             "avg_free": 0.13,
@@ -4978,10 +4978,10 @@
             "p_open": 0.375
           },
           "4": {
-            "avg_free": 1.4,
-            "avg_occupancy": 2.6,
-            "n": 15,
-            "p_open": 0.733
+            "avg_free": 1.44,
+            "avg_occupancy": 2.56,
+            "n": 16,
+            "p_open": 0.75
           },
           "5": {
             "avg_free": 1.67,
@@ -6113,10 +6113,10 @@
           }
         }
       },
-      "median_full_streak_min": 114.5,
-      "n_observations": 3955,
+      "median_full_streak_min": 115.9,
+      "n_observations": 3959,
       "name": "登戸駅前店",
-      "openings_per_hour": 0.142
+      "openings_per_hour": 0.141
     },
     "20903": {
       "capacity": 4,
@@ -6793,9 +6793,9 @@
             "p_open": 1.0
           },
           "15": {
-            "avg_free": 2.94,
-            "avg_occupancy": 1.06,
-            "n": 16,
+            "avg_free": 2.88,
+            "avg_occupancy": 1.12,
+            "n": 17,
             "p_open": 1.0
           },
           "16": {
@@ -6835,10 +6835,10 @@
             "p_open": 0.8
           },
           "22": {
-            "avg_free": 1.5,
-            "avg_occupancy": 2.5,
-            "n": 10,
-            "p_open": 0.6
+            "avg_free": 1.36,
+            "avg_occupancy": 2.64,
+            "n": 11,
+            "p_open": 0.545
           },
           "23": {
             "avg_free": 1.38,
@@ -6919,10 +6919,10 @@
             "p_open": 0.2
           },
           "36": {
-            "avg_free": 0.27,
-            "avg_occupancy": 3.73,
-            "n": 11,
-            "p_open": 0.182
+            "avg_free": 0.33,
+            "avg_occupancy": 3.67,
+            "n": 12,
+            "p_open": 0.25
           },
           "37": {
             "avg_free": 0.4,
@@ -7017,10 +7017,10 @@
             "p_open": 0.688
           },
           "4": {
-            "avg_free": 1.8,
-            "avg_occupancy": 2.2,
-            "n": 15,
-            "p_open": 0.733
+            "avg_free": 1.75,
+            "avg_occupancy": 2.25,
+            "n": 16,
+            "p_open": 0.75
           },
           "5": {
             "avg_free": 2.33,
@@ -8152,8 +8152,8 @@
           }
         }
       },
-      "median_full_streak_min": 90.5,
-      "n_observations": 3955,
+      "median_full_streak_min": 91.2,
+      "n_observations": 3959,
       "name": "調布南口店",
       "openings_per_hour": 0.145
     }
